@@ -25,27 +25,7 @@
 		<link href="assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme" />
 	</head>
 
-	<!--
-		AVAILABLE BODY CLASSES:
-		
-		smoothscroll 			= create a browser smooth scroll
-		enable-animation		= enable WOW animations
 
-		bg-grey					= grey background
-		grain-grey				= grey grain background
-		grain-blue				= blue grain background
-		grain-green				= green grain background
-		grain-blue				= blue grain background
-		grain-orange			= orange grain background
-		grain-yellow			= yellow grain background
-		
-		boxed 					= boxed layout
-		pattern1 ... patern11	= pattern background
-		menu-vertical-hide		= hidden, open on click
-		
-		BACKGROUND IMAGE [together with .boxed class]
-		data-background="assets/images/_smarty/boxed_background/1.jpg"
-	-->
 	<body class="smoothscroll enable-animation">
 
 		<!-- SLIDE TOP -->
@@ -85,32 +65,7 @@
 
 		<!-- wrapper -->
 		<div id="wrapper">
-			<!-- 
-				AVAILABLE HEADER CLASSES
 
-				Default nav height: 96px
-				.header-md 		= 70px nav height
-				.header-sm 		= 60px nav height
-
-				.b-0 		= remove bottom border (only with transparent use)
-				.transparent	= transparent header
-				.translucent	= translucent header
-				.sticky			= sticky header
-				.static			= static header
-				.dark			= dark header
-				.bottom			= header on bottom
-				
-				shadow-before-1 = shadow 1 header top
-				shadow-after-1 	= shadow 1 header bottom
-				shadow-before-2 = shadow 2 header top
-				shadow-after-2 	= shadow 2 header bottom
-				shadow-before-3 = shadow 3 header top
-				shadow-after-3 	= shadow 3 header bottom
-
-				.clearfix		= required for mobile menu, do not remove!
-
-				Example Usage:  class="clearfix sticky header-sm transparent b-0"
-			-->
 			<div id="header" class="navbar-toggleable-md sticky clearfix">
 
 				<!-- TOP NAV -->
@@ -158,16 +113,6 @@
 						<div class="navbar-collapse collapse float-right nav-main-collapse submenu-dark">
 							<nav class="nav-main">
 
-								<!--
-									NOTE
-									
-									For a regular link, remove "dropdown" class from LI tag and "dropdown-toggle" class from the href.
-									Direct Link Example: 
-
-									<li>
-										<a href="#">HOME</a>
-									</li>
-								-->
 								<ul id="topMain" class="nav nav-pills nav-main">
 									<li class="dropdown active"><!-- HOME -->
 										<a class="dropdown-toggle" href="#">
@@ -209,21 +154,7 @@
 										</ul>
 									</li>
 
-									<!-- 
-										MENU ANIMATIONS
-											.nav-animate-fadeIn
-											.nav-animate-fadeInUp
-											.nav-animate-bounceIn
-											.nav-animate-bounceInUp
-											.nav-animate-flipInX
-											.nav-animate-flipInY
-											.nav-animate-zoomIn
-											.nav-animate-slideInUp
 
-											.nav-hover-animate 		= animate text on hover
-
-											.hover-animate-bounceIn = bounceIn effect on mouse over of main menu
-									-->
 									<li class="dropdown mega-menu nav-animate-fadeIn nav-hover-animate hover-animate-bounceIn"><!-- THEMATIC -->
 										<a class="dropdown-toggle noicon" href="#">
 											<span class="badge badge-danger float-right fs-11">Projects</span>
@@ -280,7 +211,7 @@
 							<!-- Slide 2 -->
 							<li>
 								<a href="#">
-									<img src="demo_files/images/content_slider/3-min.jpg" alt="Slide 2">
+									<img src="assets/images/slider2.jpg" alt="Slide 2">
 									<div class="flex-caption">But soon all references will be ready...</div>
 								</a>
 							</li>
@@ -303,7 +234,6 @@
 									<a aria-label="Chat on WhatsApp" href="https://wa.me/5511930094801?text=Hi%20I%20am%20calling%20from%20your%20site%20please%20reply">
 										<img alt="Chat on WhatsApp" src="assets/images/whatsapp_green.png" />
 									</a>
-<!--									<a href="#" rel="nofollow" target="_blank" class="btn btn-default btn-lg btn-round">LET'S HAVE A TALK!</a>-->
 								</div>
 
 							</div>
@@ -323,7 +253,7 @@
 						<ul class="nav nav-pills mix-filter mb-60">
 							<li data-filter="projects" class="filter"><a href="#">Projects</a></li>
 							<li data-filter="repositories" class="filter"><a href="https://github.com/msantrax" target="_blank">Repositories</a></li>
-							<li data-filter="sponsor" class="filter"><a href="#">Sponsor</a></li>
+							<li data-filter="sponsor" class="filter"><a href="#">Waiting Sponsor</a></li>
 							<li data-filter="all" class="filter active"><a href="#">All</a></li>
 						</ul>
 
@@ -637,6 +567,107 @@
 									</div>
 								</div>
 							</div><!-- /item -->
+
+							<div class="col-md-3 col-sm-3 mix repositories"><!-- item repo-->
+								<div class="item-box">
+									<figure>
+										<span class="item-hover">
+											<span class="overlay dark-5"></span>
+											<span class="inner">
+												<a class="ico-rounded" href="https://github.com/msantrax/AsvpServer1" target="_blank">
+													<span class="glyphicon glyphicon-option-horizontal fs-20"></span>
+												</a>
+											</span>
+										</span>
+										<img class="img-fluid" src="assets/images/repository2.jpg" width="600" height="399" alt="">
+									</figure>
+									<div class="item-box-desc">
+										<h3>ASVPServer1</h3>
+										<ul class="list-inline categories m-0">
+											<li><a href="#">This server is Adsorption Isotherm Calculation and Strategics Core and the event gate among Jupyter/IPython Server and ASVP instrument controller</a></li>
+										</ul>
+									</div>
+								</div>
+							</div><!-- /item -->
+
+							<div class="col-md-3 col-sm-3 mix repositories"><!-- item repo-->
+								<div class="item-box">
+									<figure>
+										<span class="item-hover">
+											<span class="overlay dark-5"></span>
+											<span class="inner">
+												<a class="ico-rounded" href="https://github.com/msantrax/Temps1" target="_blank">
+													<span class="glyphicon glyphicon-option-horizontal fs-20"></span>
+												</a>
+											</span>
+										</span>
+										<img class="img-fluid" src="assets/images/repository1.png" width="600" height="399" alt="">
+									</figure>
+									<div class="item-box-desc">
+										<h3>Temps1 Portal</h3>
+										<ul class="list-inline categories m-0">
+											<li><a href="#">SorptionLab - WEB app and Interface to Instrument Calc Server</a></li>
+										</ul>
+									</div>
+								</div>
+							</div><!-- /item -->
+
+
+
+							<div class="col-md-3 col-sm-3 mix sponsor"><!-- item repo-->
+								<div class="item-box">
+									<figure>
+										<span class="item-hover">
+											<span class="overlay dark-5"></span>
+											<span class="inner">
+												<a class="ico-rounded" href="https://github.com/msantrax/Controle-F/tree/master" target="_blank">
+													<span class="glyphicon glyphicon-option-horizontal fs-20"></span>
+												</a>
+											</span>
+										</span>
+										<img class="img-fluid" src="assets/images/repository2.jpg" width="600" height="399" alt="">
+									</figure>
+									<div class="item-box-desc">
+										<h3>Control-E</h3>
+										<ul class="list-inline categories m-0">
+											<li><a href="#">Laboratory information and production line six sigma statistical analysis and strategy platform based on IoT and Machine Learning</a></li>
+										</ul>
+									</div>
+								</div>
+							</div><!-- /item -->
+
+
+							<div class="col-md-3 col-sm-3 mix sponsor"><!-- item repo-->
+								<div class="item-box">
+									<figure>
+										<span class="item-hover">
+											<span class="overlay dark-5"></span>
+											<span class="inner">
+												<a class="ico-rounded" href="https://github.com/msantrax/Controle-F/tree/master" target="_blank">
+													<span class="glyphicon glyphicon-option-horizontal fs-20"></span>
+												</a>
+											</span>
+										</span>
+										<img class="img-fluid" src="assets/images/repository3.jpg" width="600" height="399" alt="">
+									</figure>
+									<div class="item-box-desc">
+										<h3>Microwave Organic Synthesis</h3>
+										<ul class="list-inline categories m-0">
+											<li><a href="#">Evolution to the microwave digestion/molecular spectroscopy research (see DGT100 project) able to perform catalysis/synthesis of pharmaceutical material</a></li>
+										</ul>
+									</div>
+								</div>
+							</div><!-- /item -->
+
+
+
+
+
+
+
+
+
+
 
 
 

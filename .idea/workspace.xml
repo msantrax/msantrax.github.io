@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="Msantos Site - version 1">
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="Msantos Site - version 2">
+      <change afterPath="$PROJECT_DIR$/assets/images/slider2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,7 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -47,7 +50,9 @@
       <workItem from="1666716368727" duration="16000" />
       <workItem from="1666903645257" duration="49000" />
       <workItem from="1680366256919" duration="618000" />
-      <workItem from="1680370261596" duration="1232000" />
+      <workItem from="1680370261596" duration="1987000" />
+      <workItem from="1680372765174" duration="137000" />
+      <workItem from="1680372925771" duration="3785000" />
     </task>
     <task id="LOCAL-00001" summary="First run.">
       <created>1664562428892</created>
@@ -105,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680370864271</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Msantos Site - version 2">
+      <created>1680372045132</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680372045135</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +143,7 @@
     <MESSAGE value="Resume upload" />
     <MESSAGE value="Resume upload 3" />
     <MESSAGE value="Msantos Site - version 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Msantos Site - version 1" />
+    <MESSAGE value="Msantos Site - version 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Msantos Site - version 2" />
   </component>
 </project>
