@@ -1,59 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - version 3">
-      <change afterPath="$PROJECT_DIR$/assets/images/ad200_card_600x400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/antares_card_600x400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/centauro_600x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/iris_card_600x400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/lgt8_card_600x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/vd_card_600x400.png" afterDir="false" />
+    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - beginning to load projects pages.">
+      <change afterPath="$PROJECT_DIR$/lgt8.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/1x1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/avatar2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/bluebar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/caption_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/datatable-row-openclose.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/female.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/footer_sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/grabbing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/grain_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/imgpattern1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/imgpattern2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/lazy-loadimg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/lazy-loadimg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/logo-footer-dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/logo-footer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/logo.fla" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/logo_dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/logo_light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/male.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/noimage.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/patterns/none.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/patterns/page.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/patterns/parallax_overlay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/patterns/pattern1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/patterns/pattern10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/patterns/pattern11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/patterns/pattern2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/patterns/pattern3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/patterns/pattern4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/patterns/pattern5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/patterns/pattern6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/patterns/pattern7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/patterns/pattern8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/patterns/pattern9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/playing-dark.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/playing.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/submenu_dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/submenu_inverse_dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/submenu_inverse_light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/submenu_light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/transparent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/user-min.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/world-map.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +56,10 @@
       <workItem from="1680883493229" duration="45000" />
       <workItem from="1680883633910" duration="99000" />
       <workItem from="1681227881704" duration="2066000" />
-      <workItem from="1681251548601" duration="2524000" />
+      <workItem from="1681251548601" duration="3240000" />
+      <workItem from="1681749144168" duration="611000" />
+      <workItem from="1682198356635" duration="1149000" />
+      <workItem from="1682349646715" duration="2493000" />
     </task>
     <task id="LOCAL-00001" summary="First run.">
       <created>1664562428892</created>
@@ -178,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680383743863</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="MSantos Site - beginning to load projects pages.">
+      <created>1681254400276</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681254400276</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +166,7 @@
     <MESSAGE value="Msantos Site - version 1" />
     <MESSAGE value="Msantos Site - version 2" />
     <MESSAGE value="MSantos Site - version 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - version 3" />
+    <MESSAGE value="MSantos Site - beginning to load projects pages." />
+    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - beginning to load projects pages." />
   </component>
 </project>
