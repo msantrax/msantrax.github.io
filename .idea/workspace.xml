@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - lgt8 root dir added">
-      <change afterPath="$PROJECT_DIR$/prjseed/prjseed.html" afterDir="false" />
+    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - links to the project pages updated on the land page - uploading version to github">
+      <change afterPath="$PROJECT_DIR$/assets/images/backdrop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/revslider/code_ui1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/revslider/ml_modeling.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lgt8/lgt8.html" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/lgt8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prjseed/prjseed.html" beforeDir="false" afterPath="$PROJECT_DIR$/prjseed/prjseed.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/prjseed" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Github/PServer_d" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -68,7 +69,7 @@
       <workItem from="1682349646715" duration="2693000" />
       <workItem from="1682352513411" duration="127000" />
       <workItem from="1682352688725" duration="19908000" />
-      <workItem from="1682426316682" duration="5277000" />
+      <workItem from="1682426316682" duration="18059000" />
     </task>
     <task id="LOCAL-00001" summary="First run.">
       <created>1664562428892</created>
@@ -168,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682430266918</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="MSantos Site - links to the project pages updated on the land page - uploading version to github">
+      <created>1682434591698</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1682434591698</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +208,7 @@
     <MESSAGE value="MSantos Site - Init of individual projects home pages." />
     <MESSAGE value="MSantos Site - Individual projects seed pages implemented." />
     <MESSAGE value="MSantos Site - lgt8 root dir added" />
-    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - lgt8 root dir added" />
+    <MESSAGE value="MSantos Site - links to the project pages updated on the land page - uploading version to github" />
+    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - links to the project pages updated on the land page - uploading version to github" />
   </component>
 </project>
