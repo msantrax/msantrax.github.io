@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - Projects Root pages Phase 2 completed">
+    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - Navbar menus phase 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prjseed/prjseed.html" beforeDir="false" afterPath="$PROJECT_DIR$/prjseed/prjseed.html" afterDir="false" />
@@ -68,7 +68,7 @@
       <workItem from="1682352513411" duration="127000" />
       <workItem from="1682352688725" duration="19908000" />
       <workItem from="1682426316682" duration="18778000" />
-      <workItem from="1682511398424" duration="12270000" />
+      <workItem from="1682511398424" duration="15653000" />
     </task>
     <task id="LOCAL-00001" summary="First run.">
       <created>1664562428892</created>
@@ -189,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682526670642</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="MSantos Site - Navbar menus phase 2">
+      <created>1682537330247</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1682537330247</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +231,7 @@
     <MESSAGE value="MSantos Site - links to the project pages updated on the land page - uploading version to github" />
     <MESSAGE value="MSantos Site - Projects Root pages Phase 1 completed" />
     <MESSAGE value="MSantos Site - Projects Root pages Phase 2 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - Projects Root pages Phase 2 completed" />
+    <MESSAGE value="MSantos Site - Navbar menus phase 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - Navbar menus phase 2" />
   </component>
 </project>
