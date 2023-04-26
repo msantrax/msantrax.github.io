@@ -1,11 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - links to the project pages updated on the land page - uploading version to github">
-      <change afterPath="$PROJECT_DIR$/assets/images/backdrop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/revslider/code_ui1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/revslider/ml_modeling.png" afterDir="false" />
+    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - Projects Root pages Phase 1 completed">
+      <change afterPath="$PROJECT_DIR$/assets/images/dgt100a.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/lgt8_card.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/support/footer_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/support/patterns/none.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/support/patterns/page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/support/patterns/parallax_overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/support/patterns/pattern1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/support/patterns/pattern10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/support/patterns/pattern11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/support/patterns/pattern2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/support/patterns/pattern3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/support/patterns/pattern4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/support/patterns/pattern5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/support/patterns/pattern6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/support/patterns/pattern7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/support/patterns/pattern8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/support/patterns/pattern9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/support/world-map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/virna7_card.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/120704-003_snapshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/120704-003_snapshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/147348_snapshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/147348_snapshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Centauro1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Centauro1.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/patterns/none.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/patterns/page.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/patterns/parallax_overlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/patterns/pattern1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/patterns/pattern10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/patterns/pattern11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/patterns/pattern2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/patterns/pattern3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/patterns/pattern4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/patterns/pattern5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/patterns/pattern6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/patterns/pattern7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/patterns/pattern8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/_smarty/patterns/pattern9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/_support/footer_sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/_support/world-map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/chimbica.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/lgt8_card_600x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/styleswitcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/styleswitcher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msantos_0123.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/msantos_0123.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msantos_0622.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/msantos_0622.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msantos_cvbr_0223a.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/msantos_cvbr_0223a.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prjseed/prjseed.html" beforeDir="false" afterPath="$PROJECT_DIR$/prjseed/prjseed.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +114,8 @@
       <workItem from="1682349646715" duration="2693000" />
       <workItem from="1682352513411" duration="127000" />
       <workItem from="1682352688725" duration="19908000" />
-      <workItem from="1682426316682" duration="18059000" />
+      <workItem from="1682426316682" duration="18778000" />
+      <workItem from="1682511398424" duration="5280000" />
     </task>
     <task id="LOCAL-00001" summary="First run.">
       <created>1664562428892</created>
@@ -176,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682434591698</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="MSantos Site - Projects Root pages Phase 1 completed">
+      <created>1682455374973</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1682455374973</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +262,7 @@
     <MESSAGE value="MSantos Site - Individual projects seed pages implemented." />
     <MESSAGE value="MSantos Site - lgt8 root dir added" />
     <MESSAGE value="MSantos Site - links to the project pages updated on the land page - uploading version to github" />
-    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - links to the project pages updated on the land page - uploading version to github" />
+    <MESSAGE value="MSantos Site - Projects Root pages Phase 1 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - Projects Root pages Phase 1 completed" />
   </component>
 </project>
