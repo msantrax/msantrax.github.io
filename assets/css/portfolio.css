@@ -1,0 +1,23 @@
+
+
+figure {
+    display: inline-block;
+    /*border: 1px dotted gray;*/
+    margin: 5px; /* adjust as needed */
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    /*border: 1px dotted blue;*/
+    text-align: center;
+}
+
+proj_section_carrousel{
+    width: 470px;
+    height: 370px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /*border: 1px dotted blue;"*/
+}
