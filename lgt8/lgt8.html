@@ -867,8 +867,11 @@
 								<h1 class="fw-300" style="margin-bottom: 11px;">Welcome to the <b>LGT8</b> project</h1>
 								<h2 class="fw-300 letter-spacing-1 fs-13" style="margin-bottom: 14px;"><span>PRIMARY INFORMATION ABOUT IT</span></h2>
 							</header>
-							<p>This project was requested by  <a href='https://www.acilweber.com.br/' target="_blank">Acil Weber Equipamentos Científicos Ltda.</a>  at the first quarter of 2013 in order to meet the needs of its client (CIA Vale do Rio Doce) regarding the modernization of one of its instruments in operation in the laboratory.
-							The instrument in question (precision polisher for geological samples from <a href='https://logitech.uk.com/product/pm6-precision-lapping-polishing-system/'>Logitech UK</a>) was dawn due to lack of replacement material (declared obsolescence). In order to recover its functioning, the following goals were established:</p>
+							<p>This project was requested by <a href='http://www.acpinstruments.com.br' target="_blank">ACP Instruments Manufatura Ltda.</a> and
+								<a href='https://www.acilweber.com.br/' target="_blank">Acil Weber Equipamentos Científicos Ltda.</a>  at the first quarter of 2013
+								in order to meet the needs of its client (CIA Vale do Rio Doce) regarding the modernization of one of its instruments in operation in the laboratory.
+								The instrument in question (precision polisher for geological samples from <a href='https://logitech.uk.com/product/pm6-precision-lapping-polishing-system/'>Logitech UK</a>)
+								was dawn due to lack of replacement material (declared obsolescence). In order to recover its functioning, the following goals were established:</p>
 							<ul>
 								<li>Replacement of all control electronics by microprocessor systems.</li>
 								<li>Review of all mechanics, repair of fairings and accessories.</li>
@@ -884,8 +887,8 @@
 								was approved. These documents can be accessed at <a href="logitechMHM.pdf" target="_blank">Men/Hour Map - LGT8 Project</a> e
 								<a href="logitech2.pdf" target="_blank">Primary Report - LGT8 Project</a>
 							</p>
-							<p>Once the goals were established, the research and construction phases of the knowledge base and the reverse engineering of the legacy systems
-								were carried out in order to support the construction of the architecture of the new system. Theoretical research on the physical processes
+							<p>Once the goals were established, the research phase to build the knowledge base and the reverse engineering of the legacy systems
+								were carried out in order to support the construction of the architecture of the new system. The theoretical research on the physical processes
 								inherent to the operation of the instrument can be accessed at <a href='#' target="_blank">LGT8 Lap&Polishin Theory</a>
 							</p>
 						</div>
@@ -903,32 +906,83 @@
 								<h1 class="fw-300" style="margin-bottom: 11px;">System Overview</h1>
 								<h2 class="fw-300 letter-spacing-1 fs-13" style="margin-bottom: 14px;"><span>PRIMARY ARCHITECTURE / MODULES</span></h2>
 							</header>
-							<p>This project was requested by  <a href='https://www.acilweber.com.br/' target="_blank">Acil Weber Equipamentos Científicos Ltda.</a>  at the first quarter of 2013 in order to meet the needs of its client (CIA Vale do Rio Doce) regarding the modernization of one of its instruments in operation in the laboratory.
-							The instrument in question (precision polisher for geological samples from <a href='https://logitech.uk.com/product/pm6-precision-lapping-polishing-system/'>Logitech UK</a>) was dawn due to lack of replacement material (declared obsolescence). In order to recover its functioning, the following goals were established:</p>
+							<p>The preliminary specifications above led to the division of the project into 3 main areas of activity. Such areas are distinct
+								in applied technology but inter-dependent. The figure below illustrates an overview of the system and a primary breakdown can
+								be found in the corresponding sections of the document <a href="logitechMHM.pdf" target="_blank">Project Sections on MHMap</a>
+							</p>
+							<center>
+								<figure>
+									<img class="center" src="system2_c.png" alt="">
+									<figcaption>System Architecture</figcaption>
+								</figure>
+							</center>
+
+							<p>The areas depicted above may be best understood by following :</p>
 							<ul>
-								<li>Replacement of all control electronics by microprocessor systems.</li>
-								<li>Review of all mechanics, repair of fairings and accessories.</li>
-								<li>Creation of a modern user interface via tablets/android.</li>
-								<li>Implementation of the possibility of manual operations if desired.</li>
-								<li>Increased accuracy (50%) of the concavity measurement on the roughing table.</li>
-								<li>Provide the user with tools for creating more complex methods via a graphical interface.</li>
-								<li>Provide possibility for the system to autonomously (via machine learning) estimate a better strategy for roughing and polishing.</li>
+								<li><b>Hardware Tier :</b> Responsible for the direct interface with sensors and servo actuators in the instrument. It is composed of PCBs
+									populated with interface electronic circuits. Details at <a href='#' target="_self">Hardware Layer</a> </li>
+								<li><b>Firmware Tier :</b> Responsible for the direct control of the instrument's systems using a system composed of a state machine,
+									A/D conversion routines & sensor calibration, actuation of servo controls and communication handling routines via TCP/IP.
+									Details in: <a href='#' target="_self">Firmware Layer</a></li>
+								<li><b>User Interface Tier :</b> Responsible for communicating with the user and implementing high-level routines in the instrument's
+									control strategies (editing working methods and autonomous estimators) Details on : <a href='#' target="_self">Application Layer</a> </li>
+								<li><b>Documentation and Production Support:</b> User manuals, function test routines, performance analysis.
+									Details in: <a href='#' target="_self">Support Material</a></li>
 							</ul>
 
-							<figure>
-								<img src="system2_c.png" alt="">
-								<figcaption>System Architecture</figcaption>
-							</figure>
-							<p>After the theoretical knowledge collection phase of the process and reverse engineering of the old equipment, such goals were equated by creating the following structures: </p><p>&nbsp;</p>
-<!--							<hr>-->
 						</div>
 					</div>
 				</div>
 			</section>
 			<!-- /SYSTEM SECTION -->
 
+			<!-- Hardware SECTION -->
+			<section style="padding: 20px ">
+				<div id="hardware" class="container">
+					<div class="row">
+						<div class="col">
+							<header>
+								<h1 class="fw-300" style="margin-bottom: 11px;">Hardware Layer</h1>
+								<h2 class="fw-300 letter-spacing-1 fs-13" style="margin-bottom: 14px;"><span>INTERFACE WITH INSTRUMENT</span></h2>
+							</header>
+							<p>
+								The various sub-systems composing the interface with the sensors, servos and actuators as long as the tools used to
+								design the parts and circuits are listed below. Please use the icon at the right to open the desired section.
+							</p>
 
+						</div>
+						<div class="row">
+						<!-- toggle -->
+							<div class="col-md-12 col-sm-12">
+<!--								<div class="toggle toggle-accordion toggle-transparent toggle-bordered-full">-->
+								<div class="toggle toggle-accordion toggle-transparent" >
+									<div class="toggle active" >
+										<label>Lorem ipsum dolor.</label>
+										<div class="toggle-content" style="width : 100%">
+											<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+										</div>
+									</div>
 
+									<div class="toggle" >
+										<label>Sit amet, consectetur.</label>
+										<div class="toggle-content" style="width : 100%">
+											<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+										</div>
+									</div>
+
+									<div class="toggle" >
+										<label>Consectetur adipiscing elit.</label>
+										<div class="toggle-content" style="width : 100%">
+											<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+										</div>
+									</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /HARDWARE SECTION -->
 
 
 
@@ -1253,10 +1307,10 @@
 			});
 		</script>
 
-		<script type="module">
-			import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-			mermaid.initialize({ startOnLoad: true });
-		</script>
+<!--		<script type="module">-->
+<!--			import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';-->
+<!--			mermaid.initialize({ startOnLoad: true });-->
+<!--		</script>-->
 
 
 	</body>

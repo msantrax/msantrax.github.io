@@ -1,61 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - Header SEO metas included phase 1">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/portfolio.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/boxed_background/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/boxed_background/1_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/boxed_background/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/boxed_background/2_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/boxed_background/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/boxed_background/3_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/boxed_background/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/boxed_background/4_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/boxed_background/credits.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/boxed_background/none.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/LVDT_Calib.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/MHM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/acesso_rapido.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/board_assy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/canvas.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/logitech2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/logitechMHM.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/pcb_main.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/pcb_power.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/servo_dwg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/servo_font.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/system2_c.png" afterDir="false" />
+    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - LGT8 Project construction - Navigation default to LGT8 was set.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/color_scheme/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/color_scheme/blue.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/color_scheme/brown.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/color_scheme/brown.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/color_scheme/darkblue.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/color_scheme/darkblue.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/color_scheme/darkgreen.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/color_scheme/darkgreen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/color_scheme/green.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/color_scheme/green.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/color_scheme/lightgrey.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/color_scheme/lightgrey.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/color_scheme/orange.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/color_scheme/orange.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/color_scheme/pink.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/color_scheme/pink.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/color_scheme/red.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/color_scheme/red.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/color_scheme/yellow.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/color_scheme/yellow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/essentials.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/essentials.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/girl_looking-min.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/girl_looking-min.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/styleswitcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/styleswitcher.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/styleswitcher/styleswitcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/styleswitcher/styleswitcher.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_files/images/boxed_background/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_files/images/boxed_background/1_thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_files/images/boxed_background/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_files/images/boxed_background/2_thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_files/images/boxed_background/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_files/images/boxed_background/3_thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_files/images/boxed_background/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_files/images/boxed_background/4_thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_files/images/boxed_background/credits.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_files/images/boxed_background/none.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lgt8/lgt8.html" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/lgt8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prjseed/prjseed.html" beforeDir="false" afterPath="$PROJECT_DIR$/prjseed/prjseed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/logitechMHM.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/logitechMHM.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/system2_c.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/system2_c.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Pages/system2_c.png" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -141,7 +91,8 @@
       <workItem from="1682710882768" duration="4112000" />
       <workItem from="1682716300126" duration="28000" />
       <workItem from="1682716378310" duration="1650000" />
-      <workItem from="1682779153510" duration="17203000" />
+      <workItem from="1682779153510" duration="18323000" />
+      <workItem from="1682864864744" duration="11270000" />
     </task>
     <task id="LOCAL-00001" summary="First run.">
       <created>1664562428892</created>
@@ -276,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682540796195</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="MSantos Site - LGT8 Project construction - Navigation default to LGT8 was set.">
+      <created>1682802103857</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1682802103858</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,6 +271,7 @@
     <MESSAGE value="MSantos Site - Projects Root pages Phase 2 completed" />
     <MESSAGE value="MSantos Site - Navbar menus phase 2" />
     <MESSAGE value="MSantos Site - Header SEO metas included phase 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - Header SEO metas included phase 1" />
+    <MESSAGE value="MSantos Site - LGT8 Project construction - Navigation default to LGT8 was set." />
+    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - LGT8 Project construction - Navigation default to LGT8 was set." />
   </component>
 </project>
