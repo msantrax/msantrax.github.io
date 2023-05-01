@@ -887,6 +887,8 @@
 								was approved. These documents can be accessed at <a href="logitechMHM.pdf" target="_blank">Men/Hour Map - LGT8 Project</a> e
 								<a href="logitech2.pdf" target="_blank">Primary Report - LGT8 Project</a>
 							</p>
+							<p>The operations manual released after the installation & tests at the final customer site may be found at
+								<a href="Logitech_Vale_UG_1.0.8-RC_2201181918.pdf" target="_blank">LGT8 User Guide</a> (Brazilian Portuguese version)</p>
 							<p>Once the goals were established, the research phase to build the knowledge base and the reverse engineering of the legacy systems
 								were carried out in order to support the construction of the architecture of the new system. The theoretical research on the physical processes
 								inherent to the operation of the instrument can be accessed at <a href='#' target="_blank">LGT8 Lap&Polishin Theory</a>
@@ -952,31 +954,89 @@
 
 						</div>
 						<div class="row">
-						<!-- toggle -->
+
 							<div class="col-md-12 col-sm-12">
-<!--								<div class="toggle toggle-accordion toggle-transparent toggle-bordered-full">-->
 								<div class="toggle toggle-accordion toggle-transparent" >
+
+									<!-- Accordion Servo Drive -->
 									<div class="toggle active" >
-										<label>Lorem ipsum dolor.</label>
+										<label>LAPPING PLATE SERVO DRIVE</label>
 										<div class="toggle-content" style="width : 100%">
-											<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+											<div class="col">
+												<div class="owl-carousel buttons-autohide controlls-over float-right "
+													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
+													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
+													<div> <img class="img-fluid" src="servo_dwg.png" alt=""> </div>
+													<div> <img class="img-fluid" src="servo_mhm.png" alt=""> </div>
+												</div>
+
+												<p>Module responsible for controlling the lapping plate drive servo. Performs Servo motor control tasks over the
+													original equipment DC servo motor (80V - 60 Kgf). The performance targets are:</p>
+												<ul>
+													<li>Lapping plate rotation speed control from 6 to 70 RPM (original equipment specification).</li>
+													<li>Control accuracy 0.25% (not specified on equipment).</li>
+													<li>Compensation of the radial velocity of the contact point relative to the acc. sweep -- To maintain sample speed constant - (not
+														original in equipment, <b>upgrade</b>).</li>
+													<li>Torque monitoring, to indicate the end of the process or failure (not original to the equipment - <b>upgrade</b>).</li>
+												</ul>
+												<p> The circuit drawing (in pdf format) of this sub system may be found at the repository <a href="https://github.com/msantrax/lgt8/blob/master/PCBDesign/lgt8_servo.pdf" target="_blank">Servo Sub System</a></p>
+											</div>
 										</div>
 									</div>
+									<!-- /Accordion Servo Drive -->
 
+									<!-- Accordion Sweep Drive -->
 									<div class="toggle" >
-										<label>Sit amet, consectetur.</label>
+										<label>SWEEP SERVO DRIVE</label>
 										<div class="toggle-content" style="width : 100%">
-											<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+											<div class="col">
+												<div class="owl-carousel buttons-autohide controlls-over float-right "
+													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
+													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
+													<div> <img class="img-fluid" src="sweep.png" alt=""> </div>
+													<div> <img class="img-fluid" src="servo_mhm.png" alt=""> </div>
+												</div>
+
+												<p>State machine of sweep arm(s). It positions the sample driving arm according to calculation algorithms based on the velocity and flatness
+													conditions of the lapping plate. Fulfill the following tasks:<ul>
+													<li>Provides precise sample placement according to Flatness control state machine commands (for Plate reshape - conc/flat/vex)</li>
+													<li>Also according to the user's manual command (Via UI -> Analytics or instrument panel)<b> upgrade</b>)</li>
+													<li>Coordinates with the Servo module the correct sample relative velocity (not only speed)<b> upgrade</b>)</li>
+													<li>Informs radial position for Plate SM (const. speed removal) <b>upgrade</b>).</li>
+													<li>Calculates and stores drive startup and calibration parameters. (end-of-stroke steps and step/milli-radian)</li>
+												</ul>
+												<p> The circuit drawing (in pdf format) of this sub system may be found at the repository <a href="https://github.com/msantrax/lgt8/blob/master/PCBDesign/lgt8_step.pdf" target="_blank">Servo Sub System</a></p>
+											</div>
 										</div>
 									</div>
+									<!-- /Accordion Sweep Drive -->
 
+									<!-- Accordion LVDT -->
 									<div class="toggle" >
-										<label>Consectetur adipiscing elit.</label>
+										<label>FLATNESS CONTROL -- LVDT</label>
 										<div class="toggle-content" style="width : 100%">
-											<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+											<div class="col">
+												<div class="owl-carousel buttons-autohide controlls-over float-right "
+													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
+													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
+													<div> <img class="img-fluid" src="lvdt.png" alt=""> </div>
+													<div> <img class="img-fluid" src="servo_mhm.png" alt=""> </div>
+												</div>
+
+												<p>State machine of sweep arm(s). It positions the sample driving arm according to calculation algorithms based on the sample contact velocity and
+													the flatness conditions of the lapping plate. Fulfill the following tasks:</p>
+												<ul>
+													<li>Provides precise sample placement according to Flatness control state machine commands (for Plate reshape - conc/flat/vex)</li>
+
+												</ul>
+												<p> The circuit drawing (in pdf format) of this sub system may be found at the repository <a href="https://github.com/msantrax/lgt8/blob/master/PCBDesign/lgt8_step.pdf" target="_blank">Servo Sub System</a></p>
+											</div>
 										</div>
 									</div>
+									<!-- /Accordion LVDT -->
 
+
+								</div>
 							</div>
 						</div>
 					</div>
@@ -984,49 +1044,206 @@
 			</section>
 			<!-- /HARDWARE SECTION -->
 
+			<!-- Firmware SECTION -->
+			<section style="padding: 20px ">
+				<div id="Firmware" class="container">
+					<div class="row">
+						<div class="col">
+							<header>
+								<h1 class="fw-300" style="margin-bottom: 11px;">Firmware Layer</h1>
+								<h2 class="fw-300 letter-spacing-1 fs-13" style="margin-bottom: 14px;"><span>THE C++ CORE & STATE MACHINES CONTROLLING THE SILICON</span></h2>
+							</header>
+							<p>
+								The various sub-systems composing the interface with the sensors, servos and actuators as long as the tools used to
+								design the parts and circuits are listed below. Please use the icon at the right to open the desired section.
+							</p>
+
+						</div>
+						<div class="row">
+
+							<div class="col-md-12 col-sm-12">
+								<div class="toggle toggle-accordion toggle-transparent" >
+
+									<!-- Accordion Servo Drive -->
+									<div class="toggle active" >
+										<label>LAPPING PLATE SERVO DRIVE</label>
+										<div class="toggle-content" style="width : 100%">
+											<div class="col">
+												<div class="owl-carousel buttons-autohide controlls-over float-right "
+													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
+													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
+													<div> <img class="img-fluid" src="servo_dwg.png" alt=""> </div>
+													<div> <img class="img-fluid" src="servo_mhm.png" alt=""> </div>
+												</div>
+
+												<p>Module responsible for controlling the lapping plate drive servo. Performs Servo motor control tasks over the
+													original equipment DC servo motor (80V - 60 Kgf). The performance targets are:</p>
+												<ul>
+													<li>Lapping plate rotation speed control from 6 to 70 RPM (original equipment specification).</li>
+													<li>Control accuracy 0.25% (not specified on equipment).</li>
+													<li>Compensation of the radial velocity of the contact point relative to the acc. sweep -- To maintain sample speed constant - (not
+														original in equipment, <b>upgrade</b>).</li>
+													<li>Torque monitoring, to indicate the end of the process or failure (not original to the equipment - <b>upgrade</b>).</li>
+												</ul>
+												<p> The circuit drawing (in pdf format) of this sub system may be found at the repository <a href="https://github.com/msantrax/lgt8/blob/master/PCBDesign/lgt8_servo.pdf" target="_blank">Servo Sub System</a></p>
+											</div>
+										</div>
+									</div>
+									<!-- /Accordion Servo Drive -->
+
+									<!-- Accordion Servo Drive -->
+									<div class="toggle" >
+										<label>SWEEP SERVO DRIVE</label>
+										<div class="toggle-content" style="width : 100%">
+											<div class="col">
+												<div class="owl-carousel buttons-autohide controlls-over float-right "
+													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
+													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
+													<div> <img class="img-fluid" src="sweep.png" alt=""> </div>
+													<div> <img class="img-fluid" src="servo_mhm.png" alt=""> </div>
+												</div>
+
+												<p>State machine of sweep arm(s). It positions the sample driving arm according to calculation algorithms based on the velocity and flatness
+													conditions of the lapping plate. Fulfill the following tasks:<ul>
+													<li>Positions according to Flatness state machine command (for Plate reshape - conc/flat/vex)</li>
+													<li>Positions according to the user's manual command (Via UI -> Analytics or instrument panel)<b> upgrade</b>)</li>
+													<li>Informs radial position for Plate SM (const. speed removal) <b>upgrade</b>).</li>
+													<li>Calculates and stores drive startup and calibration parameters. (end-of-stroke steps and step/milli-radian)</li>
+												</ul>
+												<p> The circuit drawing (in pdf format) of this sub system may be found at the repository <a href="https://github.com/msantrax/lgt8/blob/master/PCBDesign/lgt8_step.pdf" target="_blank">Servo Sub System</a></p>
+											</div>
+										</div>
+									</div>
+									<!-- /Accordion Sweep Drive -->
 
 
-			<!-- BOTTOM --- Accordion -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /Firmware SECTION -->
+
+			<!-- Application SECTION -->
+			<section style="padding: 20px ">
+				<div id="Application" class="container">
+					<div class="row">
+						<div class="col">
+							<header>
+								<h1 class="fw-300" style="margin-bottom: 11px;">Application Layer</h1>
+								<h2 class="fw-300 letter-spacing-1 fs-13" style="margin-bottom: 14px;"><span>THE USER INTERFACE AND ANALYTICAL PROCEDURES</span></h2>
+							</header>
+							<p>
+								The various sub-systems composing the interface with the sensors, servos and actuators as long as the tools used to
+								design the parts and circuits are listed below. Please use the icon at the right to open the desired section.
+							</p>
+
+						</div>
+						<div class="row">
+
+							<div class="col-md-12 col-sm-12">
+								<div class="toggle toggle-accordion toggle-transparent" >
+
+									<!-- Accordion Servo Drive -->
+									<div class="toggle active" >
+										<label>LAPPING PLATE SERVO DRIVE</label>
+										<div class="toggle-content" style="width : 100%">
+											<div class="col">
+												<div class="owl-carousel buttons-autohide controlls-over float-right "
+													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
+													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
+													<div> <img class="img-fluid" src="servo_dwg.png" alt=""> </div>
+													<div> <img class="img-fluid" src="servo_mhm.png" alt=""> </div>
+												</div>
+
+												<p>Module responsible for controlling the lapping plate drive servo. Performs Servo motor control tasks over the
+													original equipment DC servo motor (80V - 60 Kgf). The performance targets are:</p>
+												<ul>
+													<li>Lapping plate rotation speed control from 6 to 70 RPM (original equipment specification).</li>
+													<li>Control accuracy 0.25% (not specified on equipment).</li>
+													<li>Compensation of the radial velocity of the contact point relative to the acc. sweep -- To maintain sample speed constant - (not
+														original in equipment, <b>upgrade</b>).</li>
+													<li>Torque monitoring, to indicate the end of the process or failure (not original to the equipment - <b>upgrade</b>).</li>
+												</ul>
+												<p> The circuit drawing (in pdf format) of this sub system may be found at the repository <a href="https://github.com/msantrax/lgt8/blob/master/PCBDesign/lgt8_servo.pdf" target="_blank">Servo Sub System</a></p>
+											</div>
+										</div>
+									</div>
+									<!-- /Accordion Servo Drive -->
+
+									<!-- Accordion Servo Drive -->
+									<div class="toggle" >
+										<label>SWEEP SERVO DRIVE</label>
+										<div class="toggle-content" style="width : 100%">
+											<div class="col">
+												<div class="owl-carousel buttons-autohide controlls-over float-right "
+													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
+													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
+													<div> <img class="img-fluid" src="sweep.png" alt=""> </div>
+													<div> <img class="img-fluid" src="servo_mhm.png" alt=""> </div>
+												</div>
+
+												<p>State machine of sweep arm(s). It positions the sample driving arm according to calculation algorithms based on the velocity and flatness
+													conditions of the lapping plate. Fulfill the following tasks:<ul>
+													<li>Positions according to Flatness state machine command (for Plate reshape - conc/flat/vex)</li>
+													<li>Positions according to the user's manual command (Via UI -> Analytics or instrument panel)<b> upgrade</b>)</li>
+													<li>Informs radial position for Plate SM (const. speed removal) <b>upgrade</b>).</li>
+													<li>Calculates and stores drive startup and calibration parameters. (end-of-stroke steps and step/milli-radian)</li>
+												</ul>
+												<p> The circuit drawing (in pdf format) of this sub system may be found at the repository <a href="https://github.com/msantrax/lgt8/blob/master/PCBDesign/lgt8_step.pdf" target="_blank">Servo Sub System</a></p>
+											</div>
+										</div>
+									</div>
+									<!-- /Accordion Sweep Drive -->
+
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /Application SECTION -->
+
+			<!-- Support SECTION -->
+			<section style="padding: 20px ">
+				<div id="support" class="container">
+					<div class="row">
+						<div class="col">
+							<div class="owl-carousel buttons-autohide controlls-over float-right "
+								 style="width: 470px;height: 370px; margin-top: 40px; margin-left: 20px; margin-right: 20px;"
+								 data-plugin-options='{"singleItem": true, "autoPlay": 3400, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
+								<div> <img class="img-fluid" src="manual.png" alt=""> </div>
+							</div>
+
+							<header>
+								<h1 class="fw-300" style="margin-bottom: 11px;">Support and Tools </h1>
+								<h2 class="fw-300 letter-spacing-1 fs-13" style="margin-bottom: 14px;"><span>HELP/LIBRARIES API DOCS. & TOOLS USED</span></h2>
+							</header>
+
+							<p>This project was requested</p>
+							<ul>
+								<li>Replacement of all control electronics by microprocessor systems.</li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /Support SECTION -->
+
+
+			<!-- BOTTOM --- SKills -->
 			<section>
 				<div class="container">
 					<div class="row">
-						<!-- toggle -->
-						<div class="col-md-4 col-sm-4">
-							<div class="toggle toggle-accordion toggle-transparent toggle-bordered-full">
-
-								<div class="toggle active">
-									<label>Lorem ipsum dolor.</label>
-									<div class="toggle-content">
-										<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-									</div>
-								</div>
-
-								<div class="toggle">
-									<label>Sit amet, consectetur.</label>
-									<div class="toggle-content">
-										<p>Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc.</p>
-									</div>
-								</div>
-
-								<div class="toggle">
-									<label>Consectetur adipiscing elit.</label>
-									<div class="toggle-content">
-										<p>Ut enim massa, sodales tempor convallis et, iaculis ac massa.</p>
-									</div>
-								</div>
-
-							</div>
-						</div>
-						<!-- /toggle -->
 
 						<!-- skills -->
-						<div class="col-md-4 col-sm-4">
+						<div class="col-md-6 col-sm-6">
 							<h4>Skills Practiced with this Project</h4>
 
-							<label>
-								<span class="float-right">60%</span>
-								C++
-							</label>
+							<label>C++ </label>
 							<div class="progress progress-xxs">
 								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%; min-width: 2em;"></div>
 							</div>
@@ -1070,7 +1287,7 @@
 					</div>
 				</div>
 			</section>
-			<!-- / -->
+			<!-- /Skills/ -->
 
 			<!-- FOOTER -->
 			<footer id="footer">

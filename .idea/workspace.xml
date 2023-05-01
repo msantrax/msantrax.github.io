@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - LGT8 Project construction - Navigation default to LGT8 was set.">
+    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - LGT8 Project construction - System &amp; hardware sections init phase">
+      <change afterPath="$PROJECT_DIR$/lgt8/Logitech_Vale_UG_1.0.8-RC_2201181918.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lgt8/lvdt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lgt8/manual.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lgt8/servo_mhm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lgt8/sweep.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/essentials.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/essentials.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/portfolio.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lgt8/lgt8.html" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/lgt8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lgt8/logitechMHM.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/logitechMHM.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lgt8/system2_c.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/system2_c.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Pages/system2_c.png" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Github/lgt8" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -92,7 +97,8 @@
       <workItem from="1682716300126" duration="28000" />
       <workItem from="1682716378310" duration="1650000" />
       <workItem from="1682779153510" duration="18323000" />
-      <workItem from="1682864864744" duration="11270000" />
+      <workItem from="1682864864744" duration="11959000" />
+      <workItem from="1682948929697" duration="15021000" />
     </task>
     <task id="LOCAL-00001" summary="First run.">
       <created>1664562428892</created>
@@ -234,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682802103858</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="MSantos Site - LGT8 Project construction - System &amp; hardware sections init phase">
+      <created>1682895310409</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1682895310414</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,6 +285,7 @@
     <MESSAGE value="MSantos Site - Navbar menus phase 2" />
     <MESSAGE value="MSantos Site - Header SEO metas included phase 1" />
     <MESSAGE value="MSantos Site - LGT8 Project construction - Navigation default to LGT8 was set." />
-    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - LGT8 Project construction - Navigation default to LGT8 was set." />
+    <MESSAGE value="MSantos Site - LGT8 Project construction - System &amp; hardware sections init phase" />
+    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - LGT8 Project construction - System &amp; hardware sections init phase" />
   </component>
 </project>

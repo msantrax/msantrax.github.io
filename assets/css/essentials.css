@@ -182,7 +182,7 @@ a, a:focus, a:hover, a:active {
 
 p, pre, ul, ol, dl, dd, blockquote,
 address, table, fieldset, form { /* form - required */
-	margin-bottom: 30px; 
+	margin-bottom: 20px;
 }
 
 canvas {
