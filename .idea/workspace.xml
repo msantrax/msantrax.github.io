@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - LGT8 Project construction - System &amp; hardware sections init phase">
-      <change afterPath="$PROJECT_DIR$/lgt8/Logitech_Vale_UG_1.0.8-RC_2201181918.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/lvdt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/manual.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/servo_mhm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/sweep.png" afterDir="false" />
+    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - LGT8 Project construction - Sections scaffold in init phase">
+      <change afterPath="$PROJECT_DIR$/lgt8/698_block.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lgt8/core_dwg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lgt8/lvdt_evaluation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lgt8/scilab.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/essentials.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/essentials.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/portfolio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lgt8/lgt8.html" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/lgt8.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +96,7 @@
       <workItem from="1682716378310" duration="1650000" />
       <workItem from="1682779153510" duration="18323000" />
       <workItem from="1682864864744" duration="11959000" />
-      <workItem from="1682948929697" duration="15021000" />
+      <workItem from="1682948929697" duration="19582000" />
     </task>
     <task id="LOCAL-00001" summary="First run.">
       <created>1664562428892</created>
@@ -247,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682895310414</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="MSantos Site - LGT8 Project construction - Sections scaffold in init phase">
+      <created>1682970157569</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1682970157569</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +291,7 @@
     <MESSAGE value="MSantos Site - Header SEO metas included phase 1" />
     <MESSAGE value="MSantos Site - LGT8 Project construction - Navigation default to LGT8 was set." />
     <MESSAGE value="MSantos Site - LGT8 Project construction - System &amp; hardware sections init phase" />
-    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - LGT8 Project construction - System &amp; hardware sections init phase" />
+    <MESSAGE value="MSantos Site - LGT8 Project construction - Sections scaffold in init phase" />
+    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - LGT8 Project construction - Sections scaffold in init phase" />
   </component>
 </project>

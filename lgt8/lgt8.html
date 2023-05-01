@@ -922,14 +922,14 @@
 							<p>The areas depicted above may be best understood by following :</p>
 							<ul>
 								<li><b>Hardware Tier :</b> Responsible for the direct interface with sensors and servo actuators in the instrument. It is composed of PCBs
-									populated with interface electronic circuits. Details at <a href='#' target="_self">Hardware Layer</a> </li>
+									populated with interface electronic circuits. Details at <a href='#hardware' target="_self">Hardware Layer</a> </li>
 								<li><b>Firmware Tier :</b> Responsible for the direct control of the instrument's systems using a system composed of a state machine,
 									A/D conversion routines & sensor calibration, actuation of servo controls and communication handling routines via TCP/IP.
-									Details in: <a href='#' target="_self">Firmware Layer</a></li>
+									Details in: <a href='#firmware' target="_self">Firmware Layer</a></li>
 								<li><b>User Interface Tier :</b> Responsible for communicating with the user and implementing high-level routines in the instrument's
-									control strategies (editing working methods and autonomous estimators) Details on : <a href='#' target="_self">Application Layer</a> </li>
+									control strategies (editing working methods and autonomous estimators) Details on : <a href='#application' target="_self">Application Layer</a> </li>
 								<li><b>Documentation and Production Support:</b> User manuals, function test routines, performance analysis.
-									Details in: <a href='#' target="_self">Support Material</a></li>
+									Details in: <a href='#support' target="_self">Support Material</a></li>
 							</ul>
 
 						</div>
@@ -1020,20 +1020,76 @@
 													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
 													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
 													<div> <img class="img-fluid" src="lvdt.png" alt=""> </div>
-													<div> <img class="img-fluid" src="servo_mhm.png" alt=""> </div>
+													<div> <img class="img-fluid" src="lvdt_evaluation.png" alt=""> </div>
+													<div> <img class="img-fluid" src="698_block.png" alt=""> </div>
 												</div>
 
 												<p>State machine of sweep arm(s). It positions the sample driving arm according to calculation algorithms based on the sample contact velocity and
 													the flatness conditions of the lapping plate. Fulfill the following tasks:</p>
 												<ul>
 													<li>Provides precise sample placement according to Flatness control state machine commands (for Plate reshape - conc/flat/vex)</li>
-
 												</ul>
 												<p> The circuit drawing (in pdf format) of this sub system may be found at the repository <a href="https://github.com/msantrax/lgt8/blob/master/PCBDesign/lgt8_step.pdf" target="_blank">Servo Sub System</a></p>
 											</div>
 										</div>
 									</div>
 									<!-- /Accordion LVDT -->
+
+									<!-- Accordion GPIO -->
+									<div class="toggle" >
+										<label>General GPIO, Tach and Theta sensors interface </label>
+										<div class="toggle-content" style="width : 100%">
+											<div class="col">
+												<div class="owl-carousel buttons-autohide controlls-over float-right "
+													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
+													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
+													<div> <img class="img-fluid" src="core_dwg.png" alt=""> </div>
+													<div> <img class="img-fluid" src="lvdt.png" alt=""> </div>
+												</div>
+
+												<p>
+													Several sub systems may be listed under this category,below are some of them
+												</p>
+												<ul>
+													<li>Tachometer interface to measure speed (primary function of the original instrument) and angular position of the lapping plate
+													(used in coordination with the sweep module to identify plate areas during faltness corrections) <b>upgrade</b></li>
+													<li>Optical sensors to indentify start an end position of the sweep arm</li>
+													<li>Controler to drive the spinner (WG20 Device) via DC/H-Bridge</li>
+													<li>Relays to activate Drum, vacuum pump, and other devices</li>
+												</ul>
+
+												<p> An empty close paragraph</p>
+											</div>
+										</div>
+									</div>
+									<!-- /Accordion GPIO -->
+
+
+									<!-- Accordion Empty -->
+									<div class="toggle" >
+										<label>Empty accordion strip</label>
+										<div class="toggle-content" style="width : 100%">
+											<div class="col">
+												<div class="owl-carousel buttons-autohide controlls-over float-right "
+													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
+													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
+													<div> <img class="img-fluid" src="lvdt.png" alt=""> </div>
+													<div> <img class="img-fluid" src="lvdt_evaluation.png" alt=""> </div>
+													<div> <img class="img-fluid" src="698_block.png" alt=""> </div>
+												</div>
+
+												<p>
+													The empty paragraph
+												</p>
+												<ul>
+													<li>An empty list item</li>
+												</ul>
+
+												<p> An empty close paragraph</p>
+											</div>
+										</div>
+									</div>
+									<!-- /Accordion Empty -->
 
 
 								</div>
@@ -1046,7 +1102,7 @@
 
 			<!-- Firmware SECTION -->
 			<section style="padding: 20px ">
-				<div id="Firmware" class="container">
+				<div id="firmware" class="container">
 					<div class="row">
 						<div class="col">
 							<header>
@@ -1127,7 +1183,7 @@
 
 			<!-- Application SECTION -->
 			<section style="padding: 20px ">
-				<div id="Application" class="container">
+				<div id="application" class="container">
 					<div class="row">
 						<div class="col">
 							<header>
@@ -1215,6 +1271,8 @@
 								 style="width: 470px;height: 370px; margin-top: 40px; margin-left: 20px; margin-right: 20px;"
 								 data-plugin-options='{"singleItem": true, "autoPlay": 3400, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
 								<div> <img class="img-fluid" src="manual.png" alt=""> </div>
+								<div> <img class="img-fluid" src="scilab.jpg" alt=""> </div>
+								<div> <img class="img-fluid" src="lvdt_evaluation.png" alt=""> </div>
 							</div>
 
 							<header>
@@ -1222,9 +1280,11 @@
 								<h2 class="fw-300 letter-spacing-1 fs-13" style="margin-bottom: 14px;"><span>HELP/LIBRARIES API DOCS. & TOOLS USED</span></h2>
 							</header>
 
-							<p>This project was requested</p>
+							<p>Please find bellow some references and documentation of the project</p>
 							<ul>
-								<li>Replacement of all control electronics by microprocessor systems.</li>
+								<li>The operations manual released after the installation & tests at the final customer site may be found at
+								<a href="Logitech_Vale_UG_1.0.8-RC_2201181918.pdf" target="_blank">LGT8 User Guide</a> (Brazilian Portuguese version)</li>
+
 							</ul>
 
 						</div>
