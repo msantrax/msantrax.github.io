@@ -967,6 +967,7 @@
 													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
 													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
 													<div> <img class="img-fluid" src="servo_dwg.png" alt=""> </div>
+													<div> <img class="img-fluid" src="scilab_l.png" alt=""> </div>
 													<div> <img class="img-fluid" src="servo_mhm.png" alt=""> </div>
 												</div>
 
@@ -976,8 +977,8 @@
 													<li>Lapping plate rotation speed control from 6 to 70 RPM (original equipment specification).</li>
 													<li>Control accuracy 0.25% (not specified on equipment).</li>
 													<li>Compensation of the radial velocity of the contact point relative to the acc. sweep -- To maintain sample speed constant - (not
-														original in equipment, <b>upgrade</b>).</li>
-													<li>Torque monitoring, to indicate the end of the process or failure (not original to the equipment - <b>upgrade</b>).</li>
+														original in equipment, <b>upgrade</b>.</li>
+													<li>Torque monitoring, to indicate the end of the process or failure (not original to the equipment - <b>upgrade</b>.</li>
 												</ul>
 												<p> The circuit drawing (in pdf format) of this sub system may be found at the repository <a href="https://github.com/msantrax/lgt8/blob/master/PCBDesign/lgt8_servo.pdf" target="_blank">Servo Sub System</a></p>
 											</div>
@@ -994,16 +995,19 @@
 													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
 													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
 													<div> <img class="img-fluid" src="sweep.png" alt=""> </div>
-													<div> <img class="img-fluid" src="servo_mhm.png" alt=""> </div>
+													<div> <img class="img-fluid" src="TB6600HG.png" alt=""> </div>
+													<div> <img class="img-fluid" src="nema23.jpg" alt=""> </div>
 												</div>
 
 												<p>State machine of sweep arm(s). It positions the sample driving arm according to calculation algorithms based on the velocity and flatness
 													conditions of the lapping plate. Fulfill the following tasks:<ul>
 													<li>Provides precise sample placement according to Flatness control state machine commands (for Plate reshape - conc/flat/vex)</li>
-													<li>Also according to the user's manual command (Via UI -> Analytics or instrument panel)<b> upgrade</b>)</li>
-													<li>Coordinates with the Servo module the correct sample relative velocity (not only speed)<b> upgrade</b>)</li>
-													<li>Informs radial position for Plate SM (const. speed removal) <b>upgrade</b>).</li>
+													<li>Also according to the user's manual command (Via UI -> Analytics or instrument panel)<b> upgrade</b></li>
+													<li>Coordinates with the Servo module the calculate to set the correct sample relative velocity with the lapping surface<b>upgrade</b></li>
+													<li>Informs radial position for Plate SM (const. speed removal) <b>upgrade</b>.</li>
 													<li>Calculates and stores drive startup and calibration parameters. (end-of-stroke steps and step/milli-radian)</li>
+													<li>Step Motor driver to a Nema 23 21 Kgf/cm @ 1/16 full step (1.8 degree) plus the associated 40VDC power supply</li>
+													<li>Over current detection & torque modulation <b>upgrade</b></li>
 												</ul>
 												<p> The circuit drawing (in pdf format) of this sub system may be found at the repository <a href="https://github.com/msantrax/lgt8/blob/master/PCBDesign/lgt8_step.pdf" target="_blank">Servo Sub System</a></p>
 											</div>
@@ -1037,14 +1041,14 @@
 
 									<!-- Accordion GPIO -->
 									<div class="toggle" >
-										<label>General GPIO, Tach and Theta sensors interface </label>
+										<label>GENERAL GPIO, TACH AND THETA SENSORS INTERFACE </label>
 										<div class="toggle-content" style="width : 100%">
 											<div class="col">
 												<div class="owl-carousel buttons-autohide controlls-over float-right "
 													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
 													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
 													<div> <img class="img-fluid" src="core_dwg.png" alt=""> </div>
-													<div> <img class="img-fluid" src="lvdt.png" alt=""> </div>
+													<div> <img class="img-fluid" src="gpio.png" alt=""> </div>
 												</div>
 
 												<p>
@@ -1058,7 +1062,8 @@
 													<li>Relays to activate Drum, vacuum pump, and other devices</li>
 												</ul>
 
-												<p> An empty close paragraph</p>
+												<p> The circuit drawing (in pdf format) of this sub system may be found at the repository <a href="https://github.com/msantrax/lgt8/blob/master/PCBDesign/lgt8_gpio.pdf" target="_blank">Servo Sub System</a></p>
+
 											</div>
 										</div>
 									</div>
@@ -1066,29 +1071,29 @@
 
 
 									<!-- Accordion Empty -->
-									<div class="toggle" >
-										<label>Empty accordion strip</label>
-										<div class="toggle-content" style="width : 100%">
-											<div class="col">
-												<div class="owl-carousel buttons-autohide controlls-over float-right "
-													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
-													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
-													<div> <img class="img-fluid" src="lvdt.png" alt=""> </div>
-													<div> <img class="img-fluid" src="lvdt_evaluation.png" alt=""> </div>
-													<div> <img class="img-fluid" src="698_block.png" alt=""> </div>
-												</div>
+<!--									<div class="toggle" >-->
+<!--										<label>Empty accordion strip</label>-->
+<!--										<div class="toggle-content" style="width : 100%">-->
+<!--											<div class="col">-->
+<!--												<div class="owl-carousel buttons-autohide controlls-over float-right "-->
+<!--													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"-->
+<!--													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>-->
+<!--													<div> <img class="img-fluid" src="lvdt.png" alt=""> </div>-->
+<!--													<div> <img class="img-fluid" src="lvdt_evaluation.png" alt=""> </div>-->
+<!--													<div> <img class="img-fluid" src="698_block.png" alt=""> </div>-->
+<!--												</div>-->
 
-												<p>
-													The empty paragraph
-												</p>
-												<ul>
-													<li>An empty list item</li>
-												</ul>
+<!--												<p>-->
+<!--													The empty paragraph-->
+<!--												</p>-->
+<!--												<ul>-->
+<!--													<li>An empty list item</li>-->
+<!--												</ul>-->
 
-												<p> An empty close paragraph</p>
-											</div>
-										</div>
-									</div>
+<!--												<p> An empty close paragraph</p>-->
+<!--											</div>-->
+<!--										</div>-->
+<!--									</div>-->
 									<!-- /Accordion Empty -->
 
 
