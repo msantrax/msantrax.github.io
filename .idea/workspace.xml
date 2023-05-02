@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - LGT8 Project construction - Sections Firmware, Application, Support aded">
-      <change afterPath="$PROJECT_DIR$/lgt8/TB6600HG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/gpio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/nema23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/scilab_l.png" afterDir="false" />
+    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - LGT8 Project construction - Sections Hardware GPIO, SWEEP, SERVO editied">
+      <change afterPath="$PROJECT_DIR$/lgt8/Monitor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lgt8/Servo_Calib.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lgt8/adc_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lgt8/custom_http.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lgt8/servocode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lgt8/state_machine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lgt8/sweepcode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lgt8/wifi_config.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lgt8/lgt8.html" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/lgt8.html" afterDir="false" />
     </list>
@@ -96,7 +100,7 @@
       <workItem from="1682779153510" duration="18323000" />
       <workItem from="1682864864744" duration="11959000" />
       <workItem from="1682948929697" duration="20273000" />
-      <workItem from="1683050552179" duration="3356000" />
+      <workItem from="1683050552179" duration="10832000" />
     </task>
     <task id="LOCAL-00001" summary="First run.">
       <created>1664562428892</created>
@@ -259,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682979057002</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="MSantos Site - LGT8 Project construction - Sections Hardware GPIO, SWEEP, SERVO editied">
+      <created>1683055468663</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1683055468663</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,6 +311,7 @@
     <MESSAGE value="MSantos Site - LGT8 Project construction - System &amp; hardware sections init phase" />
     <MESSAGE value="MSantos Site - LGT8 Project construction - Sections scaffold in init phase" />
     <MESSAGE value="MSantos Site - LGT8 Project construction - Sections Firmware, Application, Support aded" />
-    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - LGT8 Project construction - Sections Firmware, Application, Support aded" />
+    <MESSAGE value="MSantos Site - LGT8 Project construction - Sections Hardware GPIO, SWEEP, SERVO editied" />
+    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - LGT8 Project construction - Sections Hardware GPIO, SWEEP, SERVO editied" />
   </component>
 </project>
