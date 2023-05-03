@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - LGT8 Project construction - Sections Hardware GPIO, SWEEP, SERVO editied">
-      <change afterPath="$PROJECT_DIR$/lgt8/Monitor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/Servo_Calib.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/adc_code.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/custom_http.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/servocode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/state_machine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/sweepcode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/wifi_config.png" afterDir="false" />
+    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - LGT8 Project construction - Section Firmware accordions added">
+      <change afterPath="$PROJECT_DIR$/lgt8/canvas_op_selectprogram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lgt8/erro_naoautorizado.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lgt8/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lgt8/login_adm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lgt8/operation_enhanced.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lgt8/varredura_alpha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lgt8/varredura_fixa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lgt8/varredura_posicaofixa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lgt8/varredura_select.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/portfolio.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lgt8/lgt8.html" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/lgt8.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +102,8 @@
       <workItem from="1682779153510" duration="18323000" />
       <workItem from="1682864864744" duration="11959000" />
       <workItem from="1682948929697" duration="20273000" />
-      <workItem from="1683050552179" duration="10832000" />
+      <workItem from="1683050552179" duration="12477000" />
+      <workItem from="1683120054435" duration="7668000" />
     </task>
     <task id="LOCAL-00001" summary="First run.">
       <created>1664562428892</created>
@@ -270,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683055468663</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="MSantos Site - LGT8 Project construction - Section Firmware accordions added">
+      <created>1683065747710</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1683065747710</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,6 +322,7 @@
     <MESSAGE value="MSantos Site - LGT8 Project construction - Sections scaffold in init phase" />
     <MESSAGE value="MSantos Site - LGT8 Project construction - Sections Firmware, Application, Support aded" />
     <MESSAGE value="MSantos Site - LGT8 Project construction - Sections Hardware GPIO, SWEEP, SERVO editied" />
-    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - LGT8 Project construction - Sections Hardware GPIO, SWEEP, SERVO editied" />
+    <MESSAGE value="MSantos Site - LGT8 Project construction - Section Firmware accordions added" />
+    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - LGT8 Project construction - Section Firmware accordions added" />
   </component>
 </project>

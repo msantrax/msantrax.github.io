@@ -712,9 +712,11 @@
 
 						<!-- SLIDE  Machine learning-->
 						<li data-index="rs-55" data-transition="slideoverhorizontal" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1500"  data-thumb="demo_files/images/rs5/newscarousel4-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="MLearning" data-description=""
-						data-link="https://rpubs.com/msantrax/922260" data-target = "_blank">
+						data-link="https://rpubs.com/msantrax/922260" data-target = "_blank"
+						>
 							<!-- MAIN IMAGE -->
 							<img src="../assets/images/revslider/ml_modeling.png"  alt=""  data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+
 							<!-- LAYERS -->
 
 							<!-- LAYER NR. 1 -->
@@ -864,7 +866,7 @@
 							</div>
 
 							<header>
-								<h1 class="fw-300" style="margin-bottom: 11px;">Welcome to the <b>LGT8</b> project</h1>
+								<h1 class="projsec_label">Welcome to the LGT8 project</h1>
 								<h2 class="fw-300 letter-spacing-1 fs-13" style="margin-bottom: 14px;"><span>PRIMARY INFORMATION ABOUT IT</span></h2>
 							</header>
 							<p>This project was requested by <a href='http://www.acpinstruments.com.br' target="_blank">ACP Instruments Manufatura Ltda.</a> and
@@ -905,7 +907,7 @@
 					<div class="row">
 						<div class="col">
 							<header>
-								<h1 class="fw-300" style="margin-bottom: 11px;">System Overview</h1>
+								<h1 class="projsec_label">System Overview</h1>
 								<h2 class="fw-300 letter-spacing-1 fs-13" style="margin-bottom: 14px;"><span>PRIMARY ARCHITECTURE / MODULES</span></h2>
 							</header>
 							<p>The preliminary specifications above led to the division of the project into 3 main areas of activity. Such areas are distinct
@@ -945,12 +947,12 @@
 					<div class="row">
 						<div class="col">
 							<header>
-								<h1 class="fw-300" style="margin-bottom: 11px;">Hardware Layer</h1>
+								<h1 class="projsec_label">Hardware Layer</h1>
 								<h2 class="fw-300 letter-spacing-1 fs-13" style="margin-bottom: 14px;"><span>INTERFACE WITH INSTRUMENT</span></h2>
 							</header>
 							<p>
 								The various sub-systems composing the interface with the sensors, servos and actuators as long as the tools used to
-								design the parts and circuits are listed below. Please use the icon at the right to open the desired section.
+								design the parts and circuits are listed below. Please use the icons <i class="fa fa-caret-up"></i> and <i class="fa fa-caret-down"></i> at the right to navigate to the desired section.
 							</p>
 
 						</div>
@@ -977,9 +979,8 @@
 												<ul>
 													<li>Lapping plate rotation speed control from 6 to 70 RPM (original equipment specification).</li>
 													<li>Control accuracy 0.25% (not specified on equipment).</li>
-													<li>Compensation of the radial velocity of the contact point relative to the acc. sweep -- To maintain sample speed constant - (not
-														original in equipment, <b>upgrade</b>.</li>
-													<li>Torque monitoring, to indicate the end of the process or failure (not original to the equipment - <b>upgrade</b>.</li>
+													<li>Compensation of the radial velocity of the contact point relative to the acc. sweep to maintain sample speed constant  <span class="badge badge-secondary">upgrade</span></li>
+													<li>Torque monitoring, to indicate the end of the process or failure (not original to the equipment) <span class="badge badge-secondary">upgrade</span></li>
 												</ul>
 												<p> The circuit drawing (in pdf format) of this sub system may be found at the repository <a href="https://github.com/msantrax/lgt8/blob/master/PCBDesign/lgt8_servo.pdf" target="_blank">Servo Sub System</a></p>
 											</div>
@@ -1000,15 +1001,15 @@
 													<div> <img class="img-fluid" src="nema23.jpg" alt=""> </div>
 												</div>
 
-												<p>State machine of sweep arm(s). It positions the sample driving arm according to calculation algorithms based on the velocity and flatness
+												<p>Mechanical driver of the sweep arm(s). It positions the sample driving arm according to calculation algorithms based on the velocity and flatness
 													conditions of the lapping plate. Fulfill the following tasks:<ul>
 													<li>Provides precise sample placement according to Flatness control state machine commands (for Plate reshape - conc/flat/vex)</li>
-													<li>Also according to the user's manual command (Via UI -> Analytics or instrument panel)<b> upgrade</b></li>
-													<li>Coordinates with the Servo module the calculate to set the correct sample relative velocity with the lapping surface<b>upgrade</b></li>
-													<li>Informs radial position for Plate SM (const. speed removal) <b>upgrade</b>.</li>
+													<li>Also according to the user's manual command (Via UI -> Analytics or instrument panel)  <span class="badge badge-secondary">upgrade</span></li>
+													<li>Coordinates with the Servo module the calculate to set the correct sample relative velocity with the lapping surface  <span class="badge badge-secondary">upgrade</span></li>
+													<li>Informs radial position for Plate SM (const. speed removal)  <span class="badge badge-secondary">upgrade</span></li>
 													<li>Calculates and stores drive startup and calibration parameters. (end-of-stroke steps and step/milli-radian)</li>
 													<li>Step Motor driver to a Nema 23 21 Kgf/cm @ 1/16 full step (1.8 degree) plus the associated 40VDC power supply</li>
-													<li>Over current detection & torque modulation <b>upgrade</b></li>
+													<li>Over current detection & torque modulation <span class="badge badge-secondary">upgrade</span></li>
 												</ul>
 												<p> The circuit drawing (in pdf format) of this sub system may be found at the repository <a href="https://github.com/msantrax/lgt8/blob/master/PCBDesign/lgt8_step.pdf" target="_blank">Sample Sweep Sub System</a></p>
 											</div>
@@ -1058,10 +1059,10 @@
 												</p>
 												<ul>
 													<li>Tachometer interface to measure speed (primary function of the original instrument) and angular position of the lapping plate
-													(used in coordination with the sweep module to identify plate areas during faltness corrections) <b>upgrade</b></li>
+													(used in coordination with the sweep module to identify plate areas during flatness corrections) <span class="badge badge-secondary">upgrade</span></li>
 													<li>Optical sensors to indentify start an end position of the sweep arm</li>
 													<li>Controler to drive the spinner (WG20 Device) via DC/H-Bridge</li>
-													<li>Relays to activate Drum, vacuum pump, and other devices</li>
+													<li>Relays to activate Drum, Vacuum pump, and other devices</li>
 												</ul>
 
 												<p> The circuit drawing (in pdf format) of this sub system may be found at the repository <a href="https://github.com/msantrax/lgt8/blob/master/PCBDesign/lgt8_gpio.pdf" target="_blank">GPIO Sub System</a>
@@ -1086,12 +1087,12 @@
 					<div class="row">
 						<div class="col">
 							<header>
-								<h1 class="fw-300" style="margin-bottom: 11px;">C/C++ Firmware Layer</h1>
+								<h1 class="projsec_label">C/C++ Firmware Layer</h1>
 								<h2 class="fw-300 letter-spacing-1 fs-13" style="margin-bottom: 14px;"><span>THE C++ CORE & STATE MACHINES CONTROLLING THE SILICON</span></h2>
 							</header>
 							<p>
 								The C++ code (state machines / TCP/IP comms protocol digest / bussines & housekeeping) and the C pure code (hardware drivers, ARM CMSIS interface /
-								temporization & real time event handling) that compose the close control of the instrument.
+								temporization & real time event handling) that compose the close control of the instrument. Please use the icons <i class="fa fa-caret-up"></i> and <i class="fa fa-caret-down"></i> at the right to navigate to the desired section.
 							</p>
 
 						</div>
@@ -1232,12 +1233,11 @@
 					<div class="row">
 						<div class="col">
 							<header>
-								<h1 class="fw-300" style="margin-bottom: 11px;">Application Layer</h1>
+								<h1 class="projsec_label">Application Layer</h1>
 								<h2 class="fw-300 letter-spacing-1 fs-13" style="margin-bottom: 14px;"><span>THE USER INTERFACE AND ANALYTICAL PROCEDURES</span></h2>
 							</header>
 							<p>
-								The various sub-systems composing the interface with the sensors, servos and actuators as long as the tools used to
-								design the parts and circuits are listed below. Please use the icon at the right to open the desired section.
+								The User Interface of the instrument. Please use the icons <i class="fa fa-caret-up"></i> and <i class="fa fa-caret-down"></i> at the right to navigate to the desired section.
 							</p>
 
 						</div>
@@ -1246,58 +1246,123 @@
 							<div class="col-md-12 col-sm-12">
 								<div class="toggle toggle-accordion toggle-transparent" >
 
-									<!-- Accordion Servo Drive -->
+									<!-- Accordion ACTIVITY MANAGER & USER AUTHORIZATION -->
 									<div class="toggle active" >
-										<label>LAPPING PLATE SERVO DRIVE</label>
+										<label>ACTIVITY MANAGER & USER AUTHORIZATION</label>
 										<div class="toggle-content" style="width : 100%">
 											<div class="col">
 												<div class="owl-carousel buttons-autohide controlls-over float-right "
 													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
 													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
-													<div> <img class="img-fluid" src="servo_dwg.png" alt=""> </div>
-													<div> <img class="img-fluid" src="servo_mhm.png" alt=""> </div>
+													<div> <img class="img-fluid" src="login.png" alt=""> </div>
+													<div> <img class="img-fluid" src="login_adm.png" alt=""> </div>
+													<div> <img class="img-fluid" src="canvas.png" alt=""> </div>
 												</div>
 
-												<p>Module responsible for controlling the lapping plate drive servo. Performs Servo motor control tasks over the
-													original equipment DC servo motor (80V - 60 Kgf). The performance targets are:</p>
+												<p>THIS SECTION IS UNDER CONSTRUCTION NOW -- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt
+													accusamus necessitatibus modi adipisci officia libero</p>
 												<ul>
-													<li>Lapping plate rotation speed control from 6 to 70 RPM (original equipment specification).</li>
-													<li>Control accuracy 0.25% (not specified on equipment).</li>
-													<li>Compensation of the radial velocity of the contact point relative to the acc. sweep -- To maintain sample speed constant - (not
-														original in equipment, <b>upgrade</b>).</li>
-													<li>Torque monitoring, to indicate the end of the process or failure (not original to the equipment - <b>upgrade</b>).</li>
+													<li>Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero
+														accusantium esse hic, obcaecati, ullam, laboriosam!</li>
 												</ul>
-												<p> The circuit drawing (in pdf format) of this sub system may be found at the repository <a href="https://github.com/msantrax/lgt8/blob/master/PCBDesign/lgt8_servo.pdf" target="_blank">Servo Sub System</a></p>
+												<p> The code of this module may be browsed at the repository <a href="https://github.com/msantrax/lgt8/tree/master/lwip" target="_blank">Custom HTTP Server Code Base</a></p>
 											</div>
 										</div>
 									</div>
-									<!-- /Accordion Servo Drive -->
 
-									<!-- Accordion Servo Drive -->
+									<!-- Accordion MAIN OPERATIONS -->
 									<div class="toggle" >
-										<label>SWEEP SERVO DRIVE</label>
+										<label>MAIN OPERATIONS</label>
 										<div class="toggle-content" style="width : 100%">
 											<div class="col">
 												<div class="owl-carousel buttons-autohide controlls-over float-right "
 													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
 													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
-													<div> <img class="img-fluid" src="sweep.png" alt=""> </div>
-													<div> <img class="img-fluid" src="servo_mhm.png" alt=""> </div>
+													<div> <img class="img-fluid" src="acesso_rapido.png" alt=""> </div>
+													<div> <img class="img-fluid" src="operation_enhanced.png" alt=""> </div>
 												</div>
 
-												<p>State machine of sweep arm(s). It positions the sample driving arm according to calculation algorithms based on the velocity and flatness
-													conditions of the lapping plate. Fulfill the following tasks:<ul>
-													<li>Positions according to Flatness state machine command (for Plate reshape - conc/flat/vex)</li>
-													<li>Positions according to the user's manual command (Via UI -> Analytics or instrument panel)<b> upgrade</b>)</li>
-													<li>Informs radial position for Plate SM (const. speed removal) <b>upgrade</b>).</li>
-													<li>Calculates and stores drive startup and calibration parameters. (end-of-stroke steps and step/milli-radian)</li>
+												<p>THIS SECTION IS UNDER CONSTRUCTION NOW -- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt
+													accusamus necessitatibus modi adipisci officia libero</p>
+												<ul>
+													<li>Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero
+														accusantium esse hic, obcaecati, ullam, laboriosam!</li>
 												</ul>
-												<p> The circuit drawing (in pdf format) of this sub system may be found at the repository <a href="https://github.com/msantrax/lgt8/blob/master/PCBDesign/lgt8_step.pdf" target="_blank">Servo Sub System</a></p>
+												<p> The code of this module may be browsed at the repository <a href="https://github.com/msantrax/lgt8/tree/master/lwip" target="_blank">Custom HTTP Server Code Base</a></p>
 											</div>
 										</div>
 									</div>
-									<!-- /Accordion Sweep Drive -->
 
+									<!-- Accordion METHODS EDITOR & ALGORITHMS -->
+									<div class="toggle" >
+										<label>METHODS EDITOR & ALGORITHM</label>
+										<div class="toggle-content" style="width : 100%">
+											<div class="col">
+												<div class="owl-carousel buttons-autohide controlls-over float-right "
+													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
+													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
+													<div> <img class="img-fluid" src="canvas_op_selectprogram.png" alt=""> </div>
+													<div> <img class="img-fluid" src="varredura_alpha.png" alt=""> </div>
+													<div> <img class="img-fluid" src="varredura_select.png" alt=""> </div>
+
+												</div>
+
+												<p>THIS SECTION IS UNDER CONSTRUCTION NOW -- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt
+													accusamus necessitatibus modi adipisci officia libero</p>
+												<ul>
+													<li>Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero
+														accusantium esse hic, obcaecati, ullam, laboriosam!</li>
+												</ul>
+												<p> The code of this module may be browsed at the repository <a href="https://github.com/msantrax/lgt8/tree/master/lwip" target="_blank">Custom HTTP Server Code Base</a></p>
+											</div>
+										</div>
+									</div>
+
+									<!-- Accordion COMMS -->
+									<div class="toggle" >
+										<label>COMMS SERVICES -- HTTP & Low Latency UDP</label>
+										<div class="toggle-content" style="width : 100%">
+											<div class="col">
+												<div class="owl-carousel buttons-autohide controlls-over float-right "
+													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
+													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
+													<div> <img class="img-fluid" src="wifi_config.png" alt=""> </div>
+													<div> <img class="img-fluid" src="login.png" alt=""> </div>
+												</div>
+
+												<p>THIS SECTION IS UNDER CONSTRUCTION NOW -- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt
+													accusamus necessitatibus modi adipisci officia libero</p>
+												<ul>
+													<li>Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero
+														accusantium esse hic, obcaecati, ullam, laboriosam!</li>
+												</ul>
+												<p> The code of this module may be browsed at the repository <a href="https://github.com/msantrax/lgt8/tree/master/lwip" target="_blank">Custom HTTP Server Code Base</a></p>
+											</div>
+										</div>
+									</div>
+
+									<!-- Accordion SERVICE & CONFIGURATION -->
+									<div class="toggle" >
+										<label>SERVICE & CONFIGURATION</label>
+										<div class="toggle-content" style="width : 100%">
+											<div class="col">
+												<div class="owl-carousel buttons-autohide controlls-over float-right "
+													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
+													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
+													<div> <img class="img-fluid" src="LVDT_Calib.png" alt=""> </div>
+													<div> <img class="img-fluid" src="Servo_Calib.png" alt=""> </div>
+												</div>
+
+												<p>THIS SECTION IS UNDER CONSTRUCTION NOW -- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt
+													accusamus necessitatibus modi adipisci officia libero</p>
+												<ul>
+													<li>Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero
+														accusantium esse hic, obcaecati, ullam, laboriosam!</li>
+												</ul>
+												<p> The code of this module may be browsed at the repository <a href="https://github.com/msantrax/lgt8/tree/master/lwip" target="_blank">Custom HTTP Server Code Base</a></p>
+											</div>
+										</div>
+									</div>
 
 								</div>
 							</div>
@@ -1321,7 +1386,7 @@
 							</div>
 
 							<header>
-								<h1 class="fw-300" style="margin-bottom: 11px;">Support and Tools </h1>
+								<h1 class="projsec_label">Production Support and Tools</h1>
 								<h2 class="fw-300 letter-spacing-1 fs-13" style="margin-bottom: 14px;"><span>HELP/LIBRARIES API DOCS. & TOOLS USED</span></h2>
 							</header>
 

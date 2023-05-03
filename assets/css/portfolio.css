@@ -22,3 +22,8 @@ proj_section_carrousel{
     /*border: 1px dotted blue;"*/
 }
 
+.projsec_label{
+    margin-bottom: 11px;
+    color:darkgreen;
+    font-weight: 300;
+}
