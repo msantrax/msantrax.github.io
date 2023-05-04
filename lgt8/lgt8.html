@@ -1032,10 +1032,14 @@
 													<div> <img class="img-fluid" src="pcb_lvdt.png" alt=""> </div>
 												</div>
 
-												<p>State machine of sweep arm(s). It positions the sample driving arm according to calculation algorithms based on the sample contact velocity and
-													the flatness conditions of the lapping plate. Fulfill the following tasks:</p>
+												<p>Module responsible for the interface with the instrument's legacy LVDT transducer. The design utilizes the Analog Devices
+													AD698AH device for both excitation and signal capture tasks.</p>
 												<ul>
-													<li>Provides precise sample placement according to Flatness control state machine commands (for Plate reshape - conc/flat/vex)</li>
+													<li>For the design of the correct interface with the device, a reverse engineering phase of the instrument's original probe
+														was carried out and a theoretical research on possibilities of improving the system's performance was carried out.</li>
+													<li>The AD698 was used (which has a ratiometric architecture) with excitation of 10V rms @ 2.5Khz (200 ppm/°C).
+														Reading for coils in series resulted in 2.2 mV/V per mill (100 ppm/°C)</li>
+													<li>The signal was sent in unbalanced mode for 16-bit A/D conversion.</li>
 												</ul>
 												<p> The circuit drawing (in pdf format) of this sub system may be found at the repository <a href="https://github.com/msantrax/lgt8/blob/master/PCBDesign/lgt8_gpio.pdf" target="_blank">
 													LVDT Monitor Sub System</a> (at the upper right corner) </p>

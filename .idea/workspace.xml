@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - LGT8 Project construction - Skills section update - added pcb views on hardware section">
+    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - LGT8 Project construction - Phase3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lgt8/lgt8.html" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/lgt8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msantos_0123.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/msantos_0123.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +94,7 @@
       <workItem from="1682948929697" duration="20273000" />
       <workItem from="1683050552179" duration="12477000" />
       <workItem from="1683120054435" duration="12243000" />
-      <workItem from="1683232189618" duration="92000" />
+      <workItem from="1683232189618" duration="2373000" />
     </task>
     <task id="LOCAL-00001" summary="First run.">
       <created>1664562428892</created>
@@ -293,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683139056066</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="MSantos Site - LGT8 Project construction - Phase3">
+      <created>1683232586817</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1683232586817</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,7 +319,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="First run." />
     <MESSAGE value="Push test" />
     <MESSAGE value="Template adjustments" />
     <MESSAGE value="Resume upload" />
@@ -338,6 +343,7 @@
     <MESSAGE value="MSantos Site - LGT8 Project construction - Section Firmware accordions added" />
     <MESSAGE value="MSantos Site - LGT8 Project construction - Section Application accordions added" />
     <MESSAGE value="MSantos Site - LGT8 Project construction - Skills section update - added pcb views on hardware section" />
-    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - LGT8 Project construction - Skills section update - added pcb views on hardware section" />
+    <MESSAGE value="MSantos Site - LGT8 Project construction - Phase3" />
+    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - LGT8 Project construction - Phase3" />
   </component>
 </project>
