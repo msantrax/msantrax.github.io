@@ -1,7 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - LGT8 Project construction - Phase 4" />
+    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - LGT8 Project construction - Phase 4">
+      <change afterPath="$PROJECT_DIR$/lgt8/Virna7_ide1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/English_assesment.png" beforeDir="false" afterPath="$PROJECT_DIR$/English_assesment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/portfolio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ad200_card_600x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/ad200_card_600x400.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/analisador.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/analisador.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/antares_card_600x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/antares_card_600x400.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/backdrop.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/backdrop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/centauro_600x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/centauro_600x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/dgt100a.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/dgt100a.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/iris_card_600x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/iris_card_600x400.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/lgt8_card.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/lgt8_card.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo_acp.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logo_acp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/marcio1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/marcio1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/msantos.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/msantos.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/msantos_consult.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/msantos_consult.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/repository1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/repository1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/repository2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/repository2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/repository3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/repository3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/revslider/ad200_card_600x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/revslider/ad200_card_600x400.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/revslider/centauro_600x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/revslider/centauro_600x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/revslider/centauro_card_1200x800.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/revslider/centauro_card_1200x800.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/revslider/centauro_card_1200x800a.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/revslider/centauro_card_1200x800a.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/revslider/code_ui1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/revslider/code_ui1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/revslider/inconstruction2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/revslider/inconstruction2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/revslider/inconstruction3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/revslider/inconstruction3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/revslider/ml_modeling.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/revslider/ml_modeling.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/revslider/vd_card_600x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/revslider/vd_card_600x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/selmara.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/selmara.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/vd_card_600x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/vd_card_600x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/virna7_card.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/virna7_card.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/whatsapp_green.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/whatsapp_green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/popper.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/popper.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.esm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.esm.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.esm.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.esm.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.esm.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.esm.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/698_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/698_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/LVDT_Calib.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/LVDT_Calib.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/Logitech_Vale_UG_1.0.8-RC_2201181918.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/Logitech_Vale_UG_1.0.8-RC_2201181918.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/MHM.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/MHM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/Monitor.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/Monitor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/Servo_Calib.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/Servo_Calib.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/TB6600HG.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/TB6600HG.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/acesso_rapido.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/acesso_rapido.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/adc_code.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/adc_code.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/board_assy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/board_assy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/canvas.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/canvas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/canvas_op_selectprogram.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/canvas_op_selectprogram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/core_dwg.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/core_dwg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/custom_http.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/custom_http.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/erro_naoautorizado.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/erro_naoautorizado.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/gpio.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/gpio.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/lgt8.html" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/lgt8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/login.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/login.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/login_adm.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/login_adm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/logitech2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/logitech2.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/logitechMHM.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/logitechMHM.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/lvdt.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/lvdt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/lvdt_evaluation.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/lvdt_evaluation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/manual.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/manual.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/nema23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/nema23.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/operation_enhanced.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/operation_enhanced.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/pcb_frdm.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/pcb_frdm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/pcb_gpio.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/pcb_gpio.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/pcb_lvdt.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/pcb_lvdt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/pcb_main.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/pcb_main.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/pcb_power.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/pcb_power.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/pcb_servo.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/pcb_servo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/pcb_sweep.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/pcb_sweep.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/scilab.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/scilab.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/scilab_l.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/scilab_l.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/servo_dwg.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/servo_dwg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/servo_font.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/servo_font.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/servo_mhm.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/servo_mhm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/servocode.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/servocode.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/state_machine.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/state_machine.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/sweep.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/sweep.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/sweepcode.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/sweepcode.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/system2_c.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/system2_c.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/varredura_alpha.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/varredura_alpha.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/varredura_fixa.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/varredura_fixa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/varredura_posicaofixa.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/varredura_posicaofixa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/varredura_select.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/varredura_select.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/wifi_config.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/wifi_config.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msantos_0123.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/msantos_0123.pdf" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +136,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Github/lgt8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projects/LGT8/Virna7" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -92,7 +195,9 @@
       <workItem from="1683050552179" duration="12477000" />
       <workItem from="1683120054435" duration="12243000" />
       <workItem from="1683232189618" duration="3116000" />
-      <workItem from="1683312210983" duration="373000" />
+      <workItem from="1683312210983" duration="1299000" />
+      <workItem from="1683404928939" duration="1520000" />
+      <workItem from="1683473843423" duration="2949000" />
     </task>
     <task id="LOCAL-00001" summary="First run.">
       <created>1664562428892</created>
@@ -311,7 +416,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683312433088</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="MSantos Site - LGT8 Project construction - Phase 4">
+      <created>1683312725070</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1683312725070</updated>
+    </task>
+    <task id="LOCAL-00033" summary="MSantos Site - LGT8 Project construction - Phase 4">
+      <created>1683312762000</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1683312762000</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
