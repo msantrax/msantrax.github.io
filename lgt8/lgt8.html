@@ -1288,6 +1288,34 @@
 										</div>
 									</div>
 
+									<!-- Accordion COMMS -->
+									<div class="toggle" >
+										<label>COMMS AND SERVICES -- HTTP & Low Latency UDP</label>
+										<div class="toggle-content" style="width : 100%">
+											<div class="col">
+												<div class="owl-carousel buttons-autohide controlls-over float-right "
+													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
+													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
+													<div> <img class="img-fluid" src="wifi_config.png" alt=""> </div>
+													<div> <img class="img-fluid" src="login.png" alt=""> </div>
+												</div>
+
+												<p>Several services to support the system operation (communications, timers, event bar, message brokers)</p>
+												<ul>
+													<li>Communication services module via TCP/IP packets. It uses UDP sockets and its own recovery mechanisms to ensure a
+														better balance between low latency and secure operation.</li>
+													<li>Drivers in the Linux kernel environment in C and C++ tweaked to help provide low latency and automatic recovery of
+														the Ethernet Gate service in the Android environment (which does not provide sufficient packet transit performance
+														for real-time operations)</li>
+													<li>Interface with the HTTP server of the LGT8 machine firmware. Designed to overcome access restrictions to non-standard
+														ports by firewalls in lab networks. Uses headers and simplified segmentation (and version assisted by a packet buffer
+														implemented in FPGA) so as not to compromise high priority firmware operations (A/D conversion and Servo PWM)</li>
+												</ul>
+												<p> The code of this module may be browsed at the repository <a href="https://github.com/msantrax/lgt8/tree/master/lwip" target="_blank">Custom HTTP Server Code Base</a></p>
+											</div>
+										</div>
+									</div>
+
 									<!-- Accordion MAIN OPERATIONS -->
 									<div class="toggle" >
 										<label>MAIN OPERATIONS</label>
@@ -1336,32 +1364,9 @@
 										</div>
 									</div>
 
-									<!-- Accordion COMMS -->
-									<div class="toggle" >
-										<label>COMMS SERVICES -- HTTP & Low Latency UDP</label>
-										<div class="toggle-content" style="width : 100%">
-											<div class="col">
-												<div class="owl-carousel buttons-autohide controlls-over float-right "
-													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
-													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
-													<div> <img class="img-fluid" src="wifi_config.png" alt=""> </div>
-													<div> <img class="img-fluid" src="login.png" alt=""> </div>
-												</div>
-
-												<p>THIS SECTION IS UNDER CONSTRUCTION NOW -- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt
-													accusamus necessitatibus modi adipisci officia libero</p>
-												<ul>
-													<li>Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero
-														accusantium esse hic, obcaecati, ullam, laboriosam!</li>
-												</ul>
-												<p> The code of this module may be browsed at the repository <a href="https://github.com/msantrax/lgt8/tree/master/lwip" target="_blank">Custom HTTP Server Code Base</a></p>
-											</div>
-										</div>
-									</div>
-
 									<!-- Accordion SERVICE & CONFIGURATION -->
 									<div class="toggle" >
-										<label>SERVICE & CONFIGURATION</label>
+										<label>SERVICE TOOLS & HARDWARE CONFIGURATION</label>
 										<div class="toggle-content" style="width : 100%">
 											<div class="col">
 												<div class="owl-carousel buttons-autohide controlls-over float-right "
