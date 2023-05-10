@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - LGT8 Project construction - Phase 4 - Virna7 accordions update 2">
+    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - LGT8 Project construction - Phase 4 - Virna7 accordions update 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lgt8/lgt8.html" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/lgt8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lgt8/login_adm.png" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/login_adm.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +98,8 @@
       <workItem from="1683312210983" duration="1299000" />
       <workItem from="1683404928939" duration="1520000" />
       <workItem from="1683473843423" duration="3958000" />
-      <workItem from="1683566866117" duration="6980000" />
+      <workItem from="1683566866117" duration="7455000" />
+      <workItem from="1683729485110" duration="4842000" />
     </task>
     <task id="LOCAL-00001" summary="First run.">
       <created>1664562428892</created>
@@ -346,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683569551234</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="MSantos Site - LGT8 Project construction - Phase 4 - Virna7 accordions update 3">
+      <created>1683584335829</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1683584335829</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,7 +373,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Msantos Site - version 1" />
     <MESSAGE value="Msantos Site - version 2" />
     <MESSAGE value="MSantos Site - version 3" />
     <MESSAGE value="MSantos Site - beginning to load projects pages." />
@@ -391,6 +397,7 @@
     <MESSAGE value="MSantos Site - LGT8 Project construction - Phase 4" />
     <MESSAGE value="MSantos Site - LGT8 Project construction - Phase 4 - Virna7 accordions update" />
     <MESSAGE value="MSantos Site - LGT8 Project construction - Phase 4 - Virna7 accordions update 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - LGT8 Project construction - Phase 4 - Virna7 accordions update 2" />
+    <MESSAGE value="MSantos Site - LGT8 Project construction - Phase 4 - Virna7 accordions update 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - LGT8 Project construction - Phase 4 - Virna7 accordions update 3" />
   </component>
 </project>

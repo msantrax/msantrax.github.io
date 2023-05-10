@@ -1261,7 +1261,7 @@
 
 									<!-- Accordion ADMINISTRATION & MANAGEMENT-->
 									<div class="toggle active" >
-										<label>Administration & Management</label>
+										<label>ADMINISTRATION & MANAGEMENT</label>
 										<div class="toggle-content" style="width : 100%">
 											<div class="col">
 												<div class="owl-carousel buttons-autohide controlls-over float-right "
@@ -1280,8 +1280,19 @@
 														services from the analytical environment. Some code at <a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/RunActivity.java" target="_blank">RunActivity.java</a> and
 														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/CanvasCoordinator.java" target="_blank">Canvas_Coordinator.java</a>
 													</li>
-													<li>A module for user authentication and privilege control services, initial login screen and blocking services due to inactivity.</li>
-													<li>Miscellaneous application general configuration services (e.g. communication mode, external servers, state machines)</li>
+													<li>A module for user authentication and privilege control services, initial login screen and blocking services due to inactivity. See
+														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/UserDialogFragment.java" target="_blank">UserDialogFragment.java</a> and
+														some user management code at <a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/SettingsActivity.java" target="_blank">SettingsActivity.java</a></li>
+													<li>Some of the miscellaneous general configuration services may be browsed at e.g.
+														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/Support3.java" target="_blank">Support3.java</a> and
+														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/Virna7.java" target="_blank">Virna7.java</a>
+													</li>
+													<li>Some of the code used on the mechanisms to provide the <b>event bus</b> and the <b>post office services</b> to the various activities of the application may be browsed at
+														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/AcpMessage.java" target="_blank">AcpMessage.java</a> and
+														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/SMTraffic.java" target="_blank">SMTraffic.java</a> for messaging payloads and sections on
+														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/RunActivity.java" target="_blank">RunActivity.java</a> for e.g.
+														Context Management, USB&Ether hooks, Event Callbacks ...
+													</li>
 												</ul>
 
 											</div>
@@ -1303,15 +1314,22 @@
 												<p>Several services to support the system operation (communications, timers, event bar, message brokers)</p>
 												<ul>
 													<li>Communication services module via TCP/IP packets. It uses UDP sockets and its own recovery mechanisms to ensure a
-														better balance between low latency and secure operation.</li>
+														better balance between low latency and secure operation. Most of the code to perform this task may be found at
+														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/EtherService.java" target="_blank">EtherService.java</a> and
+														the <b>his interface with the internal activities</b> event bus and post office services (AcpMessage & SMTraffic state machine thread)
+													</li>
 													<li>Drivers in the Linux kernel environment in C and C++ tweaked to help provide low latency and automatic recovery of
 														the Ethernet Gate service in the Android environment (which does not provide sufficient packet transit performance
-														for real-time operations)</li>
+														for real-time operations). The code to the kernel driver may be found at
+														<a href="https://github.com/msantrax/Virna7/tree/main/Eth_driver" target="_blank">C/C++ PHY Ethernet Kernel Driver to Android 21</a>
+													</li>
 													<li>Interface with the HTTP server of the LGT8 machine firmware. Designed to overcome access restrictions to non-standard
 														ports by firewalls in lab networks. Uses headers and simplified segmentation (and version assisted by a packet buffer
-														implemented in FPGA) so as not to compromise high priority firmware operations (A/D conversion and Servo PWM)</li>
+														implemented in FPGA) so as to not compromise high priority firmware operations (A/D conversion and Servo PWM). Code in C and RTL may be found at
+														<a href="https://github.com/msantrax/lgt8/tree/master/drivers/fpga_packet_buffer/virna7.c" target="_blank">fpga_packet_buffer/virna7.c</a>
+													</li>
 												</ul>
-												<p> The code of this module may be browsed at the repository <a href="https://github.com/msantrax/lgt8/tree/master/lwip" target="_blank">Custom HTTP Server Code Base</a></p>
+
 											</div>
 										</div>
 									</div>
