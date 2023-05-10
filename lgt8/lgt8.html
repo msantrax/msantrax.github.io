@@ -1093,6 +1093,166 @@
 			</section>
 			<!-- /HARDWARE SECTION -->
 
+			<!-- Application SECTION -->
+			<section style="padding: 20px ">
+				<div id="application" class="container">
+					<div class="row">
+						<div class="col">
+							<header>
+								<h1 class="projsec_label">Application Layer</h1>
+								<h2 class="fw-300 letter-spacing-1 fs-13" style="margin-bottom: 14px;"><span>THE USER INTERFACE AND ANALYTICAL PROCEDURES</span></h2>
+							</header>
+							<p>
+								The User Interface of the instrument. The base code is at <a href="https://github.com/msantrax/lgt8/tree/master/lwip" target="_blank">Virna 7 Repository</a>.
+								Bellow are some of the modules developed, please use the icons <i class="fa fa-caret-up"></i> and <i class="fa fa-caret-down"></i> at the right to navigate to the desired section.
+							</p>
+
+						</div>
+						<div class="row">
+
+							<div class="col-md-12 col-sm-12">
+								<div class="toggle toggle-accordion toggle-transparent" >
+
+									<!-- Accordion ADMINISTRATION & MANAGEMENT-->
+									<div class="toggle active" >
+										<label>ADMINISTRATION & MANAGEMENT</label>
+										<div class="toggle-content" style="width : 100%">
+											<div class="col">
+												<div class="owl-carousel buttons-autohide controlls-over float-right "
+													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
+													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
+													<div> <img class="img-fluid" src="canvas.png" alt=""> </div>
+													<div> <img class="img-fluid" src="Virna7_ide1.png" alt=""> </div>
+													<div> <img class="img-fluid" src="login.png" alt=""> </div>
+													<div> <img class="img-fluid" src="login_adm.png" alt=""> </div>
+												</div>
+
+												<p>In this section, we find the modules responsible for the general administration of the application and the support services for its
+													operation.</p>
+												<ul>
+													<li>A replacement module for the original Android activity manager with a clean version focused on analytical tasks. It also removes unnecessary android
+														services from the analytical environment. Some code at <a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/RunActivity.java" target="_blank">RunActivity.java</a> and
+														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/CanvasCoordinator.java" target="_blank">Canvas_Coordinator.java</a>
+													</li>
+													<li>A module for user authentication and privilege control services, initial login screen and blocking services due to inactivity. See
+														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/UserDialogFragment.java" target="_blank">UserDialogFragment.java</a> and
+														some user management code at <a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/SettingsActivity.java" target="_blank">SettingsActivity.java</a></li>
+													<li>Some of the miscellaneous general configuration services may be browsed at e.g.
+														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/Support3.java" target="_blank">Support3.java</a> and
+														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/Virna7.java" target="_blank">Virna7.java</a>
+													</li>
+													<li>Some of the code used on the mechanisms to provide the <b>event bus</b> and the <b>post office services</b> to the various activities of the application may be browsed at
+														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/AcpMessage.java" target="_blank">AcpMessage.java</a> and
+														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/SMTraffic.java" target="_blank">SMTraffic.java</a> for messaging payloads and sections on
+														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/RunActivity.java" target="_blank">RunActivity.java</a> for e.g.
+														Context Management, USB&Ether hooks, Event Callbacks ...
+													</li>
+												</ul>
+
+											</div>
+										</div>
+									</div>
+
+									<!-- Accordion COMMS -->
+									<div class="toggle" >
+										<label>COMMS AND SERVICES -- HTTP & Low Latency UDP</label>
+										<div class="toggle-content" style="width : 100%">
+											<div class="col">
+												<div class="owl-carousel buttons-autohide controlls-over float-right "
+													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
+													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
+													<div> <img class="img-fluid" src="wifi_config.png" alt=""> </div>
+													<div> <img class="img-fluid" src="login.png" alt=""> </div>
+												</div>
+
+												<p>Several services to support the system operation (communications, timers, event bar, message brokers)</p>
+												<ul>
+													<li>Communication services module via TCP/IP packets. It uses UDP sockets and its own recovery mechanisms to ensure a
+														better balance between low latency and secure operation. Most of the code to perform this task may be found at
+														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/EtherService.java" target="_blank">EtherService.java</a> and
+														the <b>his interface with the internal activities</b> event bus and post office services (AcpMessage & SMTraffic state machine thread)
+													</li>
+													<li>Drivers in the Linux kernel environment in C and C++ tweaked to help provide low latency and automatic recovery of
+														the Ethernet Gate service in the Android environment (which does not provide sufficient packet transit performance
+														for real-time operations). The code to the kernel driver may be found at
+														<a href="https://github.com/msantrax/Virna7/tree/main/Eth_driver" target="_blank">C/C++ PHY Ethernet Kernel Driver to Android 21</a>
+													</li>
+													<li>Interface with the HTTP server of the LGT8 machine firmware. Designed to overcome access restrictions to non-standard
+														ports by firewalls in lab networks. Uses headers and simplified segmentation (and version assisted by a packet buffer
+														implemented in FPGA) so as to not compromise high priority firmware operations (A/D conversion and Servo PWM). Code in C and RTL may be found at
+														<a href="https://github.com/msantrax/lgt8/tree/master/drivers/fpga_packet_buffer/virna7.c" target="_blank">fpga_packet_buffer/virna7.c</a>
+													</li>
+												</ul>
+
+											</div>
+										</div>
+									</div>
+
+									<!-- Accordion MAIN OPERATIONS -->
+									<div class="toggle" >
+										<label>MAIN OPERATIONS, METHODS & ALGORITHM DESIGN</label>
+										<div class="toggle-content" style="width : 100%">
+											<div class="col">
+												<div class="owl-carousel buttons-autohide controlls-over float-right "
+													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
+													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
+													<div> <img class="img-fluid" src="acesso_rapido.png" alt=""> </div>
+													<div> <img class="img-fluid" src="operation_enhanced.png" alt=""> </div>
+												</div>
+
+												<p>The modules below provide the instrument's operational base services, as well as the tools for editing test strategy methods and
+													algorithms.</p>
+												<ul>
+													<li><b>Common Operations</b> Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero
+														accusantium esse hic, obcaecati, ullam, laboriosam!
+													</li>
+													<li><b>Advanced Operations</b> Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero
+														accusantium esse hic, obcaecati, ullam, laboriosam!
+													</li>
+													<li><b>Profile Edition</b> Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero
+														accusantium esse hic, obcaecati, ullam, laboriosam!
+													</li>
+													<li><b>Strategy Algorithm Selection</b> Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero
+														accusantium esse hic, obcaecati, ullam, laboriosam!
+													</li>
+												</ul>
+												<p> The code of this module may be browsed at the repository <a href="https://github.com/msantrax/lgt8/tree/master/lwip" target="_blank">Custom HTTP Server Code Base</a></p>
+											</div>
+										</div>
+									</div>
+
+
+									<!-- Accordion SERVICE & CONFIGURATION -->
+									<div class="toggle" >
+										<label>SERVICE TOOLS & HARDWARE CONFIGURATION</label>
+										<div class="toggle-content" style="width : 100%">
+											<div class="col">
+												<div class="owl-carousel buttons-autohide controlls-over float-right "
+													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
+													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
+													<div> <img class="img-fluid" src="LVDT_Calib.png" alt=""> </div>
+													<div> <img class="img-fluid" src="Servo_Calib.png" alt=""> </div>
+												</div>
+
+												<p>THIS SECTION IS UNDER CONSTRUCTION NOW -- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt
+													accusamus necessitatibus modi adipisci officia libero</p>
+												<ul>
+													<li>Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero
+														accusantium esse hic, obcaecati, ullam, laboriosam!</li>
+												</ul>
+												<p> The code of this module may be browsed at the repository <a href="https://github.com/msantrax/lgt8/tree/master/lwip" target="_blank">Custom HTTP Server Code Base</a></p>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /Application SECTION -->
+
 			<!-- Firmware SECTION -->
 			<section style="padding: 20px ">
 				<div id="firmware" class="container">
@@ -1239,179 +1399,6 @@
 			</section>
 			<!-- /Firmware SECTION -->
 
-			<!-- Application SECTION -->
-			<section style="padding: 20px ">
-				<div id="application" class="container">
-					<div class="row">
-						<div class="col">
-							<header>
-								<h1 class="projsec_label">Application Layer</h1>
-								<h2 class="fw-300 letter-spacing-1 fs-13" style="margin-bottom: 14px;"><span>THE USER INTERFACE AND ANALYTICAL PROCEDURES</span></h2>
-							</header>
-							<p>
-								The User Interface of the instrument. The base code is at <a href="https://github.com/msantrax/lgt8/tree/master/lwip" target="_blank">Virna 7 Repository</a>.
-								Bellow are some of the modules developed, please use the icons <i class="fa fa-caret-up"></i> and <i class="fa fa-caret-down"></i> at the right to navigate to the desired section.
-							</p>
-
-						</div>
-						<div class="row">
-
-							<div class="col-md-12 col-sm-12">
-								<div class="toggle toggle-accordion toggle-transparent" >
-
-									<!-- Accordion ADMINISTRATION & MANAGEMENT-->
-									<div class="toggle active" >
-										<label>ADMINISTRATION & MANAGEMENT</label>
-										<div class="toggle-content" style="width : 100%">
-											<div class="col">
-												<div class="owl-carousel buttons-autohide controlls-over float-right "
-													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
-													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
-													<div> <img class="img-fluid" src="canvas.png" alt=""> </div>
-													<div> <img class="img-fluid" src="Virna7_ide1.png" alt=""> </div>
-													<div> <img class="img-fluid" src="login.png" alt=""> </div>
-													<div> <img class="img-fluid" src="login_adm.png" alt=""> </div>
-												</div>
-
-												<p>In this section, we find the modules responsible for the general administration of the application and the support services for its
-													operation.</p>
-												<ul>
-													<li>A replacement module for the original Android activity manager with a clean version focused on analytical tasks. It also removes unnecessary android
-														services from the analytical environment. Some code at <a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/RunActivity.java" target="_blank">RunActivity.java</a> and
-														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/CanvasCoordinator.java" target="_blank">Canvas_Coordinator.java</a>
-													</li>
-													<li>A module for user authentication and privilege control services, initial login screen and blocking services due to inactivity. See
-														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/UserDialogFragment.java" target="_blank">UserDialogFragment.java</a> and
-														some user management code at <a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/SettingsActivity.java" target="_blank">SettingsActivity.java</a></li>
-													<li>Some of the miscellaneous general configuration services may be browsed at e.g.
-														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/Support3.java" target="_blank">Support3.java</a> and
-														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/Virna7.java" target="_blank">Virna7.java</a>
-													</li>
-													<li>Some of the code used on the mechanisms to provide the <b>event bus</b> and the <b>post office services</b> to the various activities of the application may be browsed at
-														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/AcpMessage.java" target="_blank">AcpMessage.java</a> and
-														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/SMTraffic.java" target="_blank">SMTraffic.java</a> for messaging payloads and sections on
-														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/RunActivity.java" target="_blank">RunActivity.java</a> for e.g.
-														Context Management, USB&Ether hooks, Event Callbacks ...
-													</li>
-												</ul>
-
-											</div>
-										</div>
-									</div>
-
-									<!-- Accordion COMMS -->
-									<div class="toggle" >
-										<label>COMMS AND SERVICES -- HTTP & Low Latency UDP</label>
-										<div class="toggle-content" style="width : 100%">
-											<div class="col">
-												<div class="owl-carousel buttons-autohide controlls-over float-right "
-													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
-													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
-													<div> <img class="img-fluid" src="wifi_config.png" alt=""> </div>
-													<div> <img class="img-fluid" src="login.png" alt=""> </div>
-												</div>
-
-												<p>Several services to support the system operation (communications, timers, event bar, message brokers)</p>
-												<ul>
-													<li>Communication services module via TCP/IP packets. It uses UDP sockets and its own recovery mechanisms to ensure a
-														better balance between low latency and secure operation. Most of the code to perform this task may be found at
-														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/EtherService.java" target="_blank">EtherService.java</a> and
-														the <b>his interface with the internal activities</b> event bus and post office services (AcpMessage & SMTraffic state machine thread)
-													</li>
-													<li>Drivers in the Linux kernel environment in C and C++ tweaked to help provide low latency and automatic recovery of
-														the Ethernet Gate service in the Android environment (which does not provide sufficient packet transit performance
-														for real-time operations). The code to the kernel driver may be found at
-														<a href="https://github.com/msantrax/Virna7/tree/main/Eth_driver" target="_blank">C/C++ PHY Ethernet Kernel Driver to Android 21</a>
-													</li>
-													<li>Interface with the HTTP server of the LGT8 machine firmware. Designed to overcome access restrictions to non-standard
-														ports by firewalls in lab networks. Uses headers and simplified segmentation (and version assisted by a packet buffer
-														implemented in FPGA) so as to not compromise high priority firmware operations (A/D conversion and Servo PWM). Code in C and RTL may be found at
-														<a href="https://github.com/msantrax/lgt8/tree/master/drivers/fpga_packet_buffer/virna7.c" target="_blank">fpga_packet_buffer/virna7.c</a>
-													</li>
-												</ul>
-
-											</div>
-										</div>
-									</div>
-
-									<!-- Accordion MAIN OPERATIONS -->
-									<div class="toggle" >
-										<label>MAIN OPERATIONS</label>
-										<div class="toggle-content" style="width : 100%">
-											<div class="col">
-												<div class="owl-carousel buttons-autohide controlls-over float-right "
-													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
-													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
-													<div> <img class="img-fluid" src="acesso_rapido.png" alt=""> </div>
-													<div> <img class="img-fluid" src="operation_enhanced.png" alt=""> </div>
-												</div>
-
-												<p>THIS SECTION IS UNDER CONSTRUCTION NOW -- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt
-													accusamus necessitatibus modi adipisci officia libero</p>
-												<ul>
-													<li>Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero
-														accusantium esse hic, obcaecati, ullam, laboriosam!</li>
-												</ul>
-												<p> The code of this module may be browsed at the repository <a href="https://github.com/msantrax/lgt8/tree/master/lwip" target="_blank">Custom HTTP Server Code Base</a></p>
-											</div>
-										</div>
-									</div>
-
-									<!-- Accordion METHODS EDITOR & ALGORITHMS -->
-									<div class="toggle" >
-										<label>METHODS EDITOR & ALGORITHM DESIGN </label>
-										<div class="toggle-content" style="width : 100%">
-											<div class="col">
-												<div class="owl-carousel buttons-autohide controlls-over float-right "
-													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
-													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
-													<div> <img class="img-fluid" src="canvas_op_selectprogram.png" alt=""> </div>
-													<div> <img class="img-fluid" src="varredura_alpha.png" alt=""> </div>
-													<div> <img class="img-fluid" src="varredura_select.png" alt=""> </div>
-
-												</div>
-
-												<p>THIS SECTION IS UNDER CONSTRUCTION NOW -- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt
-													accusamus necessitatibus modi adipisci officia libero</p>
-												<ul>
-													<li>Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero
-														accusantium esse hic, obcaecati, ullam, laboriosam!</li>
-												</ul>
-												<p> The code of this module may be browsed at the repository <a href="https://github.com/msantrax/lgt8/tree/master/lwip" target="_blank">Custom HTTP Server Code Base</a></p>
-											</div>
-										</div>
-									</div>
-
-									<!-- Accordion SERVICE & CONFIGURATION -->
-									<div class="toggle" >
-										<label>SERVICE TOOLS & HARDWARE CONFIGURATION</label>
-										<div class="toggle-content" style="width : 100%">
-											<div class="col">
-												<div class="owl-carousel buttons-autohide controlls-over float-right "
-													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
-													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
-													<div> <img class="img-fluid" src="LVDT_Calib.png" alt=""> </div>
-													<div> <img class="img-fluid" src="Servo_Calib.png" alt=""> </div>
-												</div>
-
-												<p>THIS SECTION IS UNDER CONSTRUCTION NOW -- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt
-													accusamus necessitatibus modi adipisci officia libero</p>
-												<ul>
-													<li>Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero
-														accusantium esse hic, obcaecati, ullam, laboriosam!</li>
-												</ul>
-												<p> The code of this module may be browsed at the repository <a href="https://github.com/msantrax/lgt8/tree/master/lwip" target="_blank">Custom HTTP Server Code Base</a></p>
-											</div>
-										</div>
-									</div>
-
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- /Application SECTION -->
 
 			<!-- Support SECTION -->
 			<section style="padding: 20px ">
