@@ -1113,8 +1113,56 @@
 							<div class="col-md-12 col-sm-12">
 								<div class="toggle toggle-accordion toggle-transparent" >
 
-									<!-- Accordion ADMINISTRATION & MANAGEMENT-->
+
+									<!-- Accordion MAIN OPERATIONS -->
 									<div class="toggle active" >
+										<label>MAIN OPERATIONS, METHODS & ALGORITHM DESIGN</label>
+										<div class="toggle-content" style="width : 100%">
+											<div class="col">
+												<div class="owl-carousel buttons-autohide controlls-over float-right "
+													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
+													 data-plugin-options='{"singleItem": true, "autoPlay": 3000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
+													<div> <img class="img-fluid" src="acesso_rapido.png" alt=""> </div>
+													<div> <img class="img-fluid" src="operation_enhanced.png" alt=""> </div>
+													<div> <img class="img-fluid" src="canvas_op_selectprogram.png" alt=""> </div>
+													<div> <img class="img-fluid" src="profile_command.png" alt=""> </div>
+													<div> <img class="img-fluid" src="profile_phase.png" alt=""> </div>
+													<div> <img class="img-fluid" src="available_gauges.png" alt=""> </div>
+													<div> <img class="img-fluid" src="varredura_alpha.png" alt=""> </div>
+												</div>
+
+												<p>The activities below provide the instrument's operational base services, as well as the tools for editing test strategy methods and
+													algorithms.</p>
+												<ul>
+													<li><b>Common Operations : </b>This activity provides a simplified and objective man-machine interface. It focuses on the use of pre-configured and
+														quick interpretation instrument status indicators as well as immediate action actuators or a maximum of 2 levels. Code segments may be browsed at
+														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/RunActivity.java" target="_blank">RunActivity.java (State Machine at line 988)</a> and
+														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/Gauge.java" target="_blank">Gauge.java</a> for example.
+													</li>
+													<li><b>Advanced Operations: </b> This activity provides a more elaborate man-machine interface, fully configurable and with better graphic resources in
+														order to provide more freedom in choosing and detailing the instrument's various sensors. A graph of historical flatness control strategy results
+														is also provided. The codes at
+														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/RunTaskRightGauges.java" target="_blank">RunTaskRightGauges.java</a> and
+														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/GaugeType.java" target="_blank">GaugeType.java</a> are examples of the structure
+													</li>
+													<li><b>Method Edition: </b> Like any analytical instrument, the advanced operations can (and should) be pre-configured by the researcher in the form
+														of methods. This activity provides tools and graphic edition for the construction of scripts composed by the sequence of actions. Some code at
+														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/ProfileManager.java" target="_blank">ProfileManager.java</a> and
+														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/ProfilePhase.java" target="_blank">ProfilePhase.java</a> for example.
+													</li>
+													<li><b>Strategy Algorithm Selection: </b> In order to increase the quality of the control and provide greater ease in configuring the flatness control strategies of the lapping
+														table, the possibility of loading up to four algorithms in the instrument's control state machine was implemented. codes in
+														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/SetSweepDialogFragment.java" target="_blank">SetSweepDialogFragment.java</a> and
+														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/Support3.java" target="_blank">Support3.java</a>
+													</li>
+												</ul>
+
+											</div>
+										</div>
+									</div>
+
+									<!-- Accordion ADMINISTRATION & MANAGEMENT-->
+									<div class="toggle" >
 										<label>ADMINISTRATION & MANAGEMENT</label>
 										<div class="toggle-content" style="width : 100%">
 											<div class="col">
@@ -1177,7 +1225,7 @@
 														for real-time operations). The code to the kernel driver may be found at
 														<a href="https://github.com/msantrax/Virna7/tree/main/Eth_driver" target="_blank">C/C++ PHY Ethernet Kernel Driver to Android 21</a>
 													</li>
-													<li>Interface with the HTTP server of the LGT8 machine firmware. Designed to overcome access restrictions to non-standard
+													<li>Interface with the HTTP server of the LGT8 machine firmware. Designed to overcome access restrictions on non-standard
 														ports by firewalls in lab networks. Uses headers and simplified segmentation (and version assisted by a packet buffer
 														implemented in FPGA) so as to not compromise high priority firmware operations (A/D conversion and Servo PWM). Code in C and RTL may be found at
 														<a href="https://github.com/msantrax/lgt8/tree/master/drivers/fpga_packet_buffer/virna7.c" target="_blank">fpga_packet_buffer/virna7.c</a>
@@ -1187,41 +1235,6 @@
 											</div>
 										</div>
 									</div>
-
-									<!-- Accordion MAIN OPERATIONS -->
-									<div class="toggle" >
-										<label>MAIN OPERATIONS, METHODS & ALGORITHM DESIGN</label>
-										<div class="toggle-content" style="width : 100%">
-											<div class="col">
-												<div class="owl-carousel buttons-autohide controlls-over float-right "
-													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
-													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
-													<div> <img class="img-fluid" src="acesso_rapido.png" alt=""> </div>
-													<div> <img class="img-fluid" src="operation_enhanced.png" alt=""> </div>
-												</div>
-
-
-												<p>The modules below provide the instrument's operational base services, as well as the tools for editing test strategy methods and
-													algorithms.</p>
-												<ul>
-													<li><b>Common Operations</b> Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero
-														accusantium esse hic, obcaecati, ullam, laboriosam!
-													</li>
-													<li><b>Advanced Operations</b> Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero
-														accusantium esse hic, obcaecati, ullam, laboriosam!
-													</li>
-													<li><b>Profile Edition</b> Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero
-														accusantium esse hic, obcaecati, ullam, laboriosam!
-													</li>
-													<li><b>Strategy Algorithm Selection</b> Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero
-														accusantium esse hic, obcaecati, ullam, laboriosam!
-													</li>
-												</ul>
-												<p> The code of this module may be browsed at the repository <a href="https://github.com/msantrax/lgt8/tree/master/lwip" target="_blank">Custom HTTP Server Code Base</a></p>
-											</div>
-										</div>
-									</div>
-
 
 									<!-- Accordion SERVICE & CONFIGURATION -->
 									<div class="toggle" >
@@ -1233,15 +1246,32 @@
 													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
 													<div> <img class="img-fluid" src="LVDT_Calib.png" alt=""> </div>
 													<div> <img class="img-fluid" src="Servo_Calib.png" alt=""> </div>
+													<div> <img class="img-fluid" src="sweep_service.png" alt=""> </div>
 												</div>
 
-												<p>THIS SECTION IS UNDER CONSTRUCTION NOW -- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt
-													accusamus necessitatibus modi adipisci officia libero</p>
+												<p>Such activities provide the necessary services for the general maintenance and calibration of the instrument's sensors and the
+													configuration/monitoring of the communication protocols between the various operational modules of the system.</p>
 												<ul>
-													<li>Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero
-														accusantium esse hic, obcaecati, ullam, laboriosam!</li>
+													<li><b>Servo Maintenance Services:</b> Servo driver configuration tools from Lapping table - Provides direct servo command, DC motor calibration
+														curve, modulation period and PID controller parameters (to the C++ driver at the firmware) for acceleration and damping. Works together
+														with the Sweep driver to control the constant speed of sample sweeping in Beta and Gamma algorithms. code in
+														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/ServoFragment.java" target="_blank">ServoFragment.java</a>
+													</li>
+													<li><b>Sweep Maintenance Services:</b> Sample Holder Swing Arm Setup Tools. It provides tools for the direct command of the arm, calibration of the limit sensors
+														of full course and the amplitude of the useful space for information of the algorithms alpha and beta (control of the relative velocity of the sample). code in
+														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/SweepFragment.java" target="_blank">SweepFragment.java</a>
+													</li>
+													<li><b>LVDT Maintenance Services:</b> Provides direct access to the Lapping table's concavity monitoring LVDT sensor as well as its calibration parameters.
+														It works together with the servo module in mapping the table to provide information to the strategy algorithms. It also provides access to the sample
+														holder WG20 spinner and auxiliar services (abrasive drum and vacuum pump control) code in
+														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/MonitorFragment.java" target="_blank">MonitorFragment.java</a>
+													</li>
+													<li><b>Packet Log Monitoring Services:</b> Ethernet packet log monitoring services. Code in
+														<a href="https://github.com/msantrax/Virna7/blob/main/app/src/main/java/com/opus/virna7/EtherService.java" target="_blank">EtherService.java</a>
+													</li>
+
 												</ul>
-												<p> The code of this module may be browsed at the repository <a href="https://github.com/msantrax/lgt8/tree/master/lwip" target="_blank">Custom HTTP Server Code Base</a></p>
+
 											</div>
 										</div>
 									</div>
