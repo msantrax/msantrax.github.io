@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - LGT8 Project construction - Phase 5">
-      <change afterPath="$PROJECT_DIR$/lgt8/available_gauges.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/profile_command.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/profile_phase.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lgt8/sweep_service.png" afterDir="false" />
+    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - LGT8 Project construction - Phase 5B - App accordion finished">
+      <change afterPath="$PROJECT_DIR$/assets/images/clrun_scan_card.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lgt8/lgt8.html" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/lgt8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +100,8 @@
       <workItem from="1683404928939" duration="1520000" />
       <workItem from="1683473843423" duration="3958000" />
       <workItem from="1683566866117" duration="7455000" />
-      <workItem from="1683729485110" duration="18529000" />
+      <workItem from="1683729485110" duration="20056000" />
+      <workItem from="1683828419608" duration="3159000" />
     </task>
     <task id="LOCAL-00001" summary="First run.">
       <created>1664562428892</created>
@@ -378,7 +376,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683742227193</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="MSantos Site - LGT8 Project construction - Phase 5A - App accordion finished">
+      <created>1683759768090</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1683759768090</updated>
+    </task>
+    <task id="LOCAL-00041" summary="MSantos Site - LGT8 Project construction - Phase 5B - App accordion finished">
+      <created>1683761724525</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1683761724525</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,8 +410,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="MSantos Site - beginning to load projects pages." />
-    <MESSAGE value="MSantos Site - Init of individual projects home pages." />
     <MESSAGE value="MSantos Site - Individual projects seed pages implemented." />
     <MESSAGE value="MSantos Site - lgt8 root dir added" />
     <MESSAGE value="MSantos Site - links to the project pages updated on the land page - uploading version to github" />
@@ -423,6 +433,8 @@
     <MESSAGE value="MSantos Site - LGT8 Project construction - Phase 4 - Virna7 accordions update 3" />
     <MESSAGE value="MSantos Site - LGT8 Project construction - Phase 4 - Virna7 accordions update 4" />
     <MESSAGE value="MSantos Site - LGT8 Project construction - Phase 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - LGT8 Project construction - Phase 5" />
+    <MESSAGE value="MSantos Site - LGT8 Project construction - Phase 5A - App accordion finished" />
+    <MESSAGE value="MSantos Site - LGT8 Project construction - Phase 5B - App accordion finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - LGT8 Project construction - Phase 5B - App accordion finished" />
   </component>
 </project>
