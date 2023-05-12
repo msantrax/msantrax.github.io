@@ -1113,7 +1113,6 @@
 							<div class="col-md-12 col-sm-12">
 								<div class="toggle toggle-accordion toggle-transparent" >
 
-
 									<!-- Accordion MAIN OPERATIONS -->
 									<div class="toggle active" >
 										<label>MAIN OPERATIONS, METHODS & ALGORITHM DESIGN</label>
@@ -1296,7 +1295,10 @@
 							</header>
 							<p>
 								The C++ code (state machines / TCP/IP comms protocol digest / bussines & housekeeping) and the C pure code (hardware drivers, ARM CMSIS interface /
-								temporization & real time event handling) that compose the close control of the instrument. Please use the icons <i class="fa fa-caret-up"></i> and <i class="fa fa-caret-down"></i> at the right to navigate to the desired section.
+								temporization & real time event handling) that compose the close control of the instrument. The code architecture favors objectivity (KISS) and
+								reliability (Return on Completion State Design & Watch Dog Monitoring), reserving the operation strategy calculation to the associated application
+								helped by a real-time communication channel. <b>Please use the icons <i class="fa fa-caret-up"></i> and <i class="fa fa-caret-down"></i> at the right to
+								navigate to the desired section.</b>
 							</p>
 
 						</div>
@@ -1304,9 +1306,9 @@
 							<div class="col-md-12 col-sm-12">
 								<div class="toggle toggle-accordion toggle-transparent" >
 
-									<!-- Accordion SERVO SERVICES -->
+									<!-- Accordion MAIN FRAMEWORK -->
 									<div class="toggle active" >
-										<label>SERVO SERVICES STATE MACHINE</label>
+										<label>MAIN FRAMEWORK</label>
 										<div class="toggle-content" style="width : 100%">
 											<div class="col">
 												<div class="owl-carousel buttons-autohide controlls-over float-right "
@@ -1317,20 +1319,34 @@
 													<div> <img class="img-fluid" src="state_machine.png" alt=""> </div>
 												</div>
 
-												<p>THIS SECTION IS UNDER CONSTRUCTION NOW -- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt
-													accusamus necessitatibus modi adipisci officia libero</p>
+												<p>These are some of the general housekeeping services. The code of this module may be browsed at the repository
+													<a href="https://github.com/msantrax/lgt8/tree/master/source" target="_blank">Main services</a>
+												</p>
+
 												<ul>
-													<li>Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero
-														accusantium esse hic, obcaecati, ullam, laboriosam!</li>
+													<li><b>Real Time services: </b> Such services basically comprise administration tasks and context switching via high priority interrupt handlers for PWM, A/D Conversion,
+														Tachometer and reference clock resources for state machines. See BOARD_TACH_IRQ_HANDLER, installADCHandler, installTickHandler, PIT_SLOWTICK_HANDLER in
+														<a href="https://github.com/msantrax/lgt8/blob/master/source/main.cpp" target="_blank">LGT8 Main.cpp</a>
+													</li>
+													<li><b>State machine tick: </b>The mapping structures and timing of state machines used in device services can be found at
+														<a href="https://github.com/msantrax/lgt8/blob/master/source/antares.h" target="_blank">antares.h</a> and
+														<a href="https://github.com/msantrax/lgt8/blob/master/source/statemap.h" target="_blank">statemap.h</a> for example.
+													</li>
+													<li><b>Log and PUB/SUB Services: </b>The provision of communication services and triggering events between the various state machines is performed by a simple post office structure
+														(publish/subscribe) in <a href="https://github.com/msantrax/lgt8/blob/master/source/main.cpp" target="_blank">LGT8 Main.cpp #314</a>. The log/trace service for debugging can be found
+														in <a href="https://github.com/msantrax/lgt8/blob/master/source/main.cpp" target="_blank">LGT8 Main.cpp #237</a>. The ACPMessage structure is at
+														in <a href="https://github.com/msantrax/lgt8/blob/master/source/antares.h" target="_blank">antares.h</a>.
+													</li>
+
 												</ul>
-												<p> The code of this module may be browsed at the repository <a href="https://github.com/msantrax/lgt8/tree/master/Servo" target="_blank">Servo Controller Code Base</a></p>
+
 											</div>
 										</div>
 									</div>
 
-									<!-- Accordion SWEEP SERVICES -->
+									<!-- Accordion SERVICES -->
 									<div class="toggle" >
-										<label>SAMPLE SWEEP SERVICES STATE MACHINE</label>
+										<label>SERVICES</label>
 										<div class="toggle-content" style="width : 100%">
 											<div class="col">
 												<div class="owl-carousel buttons-autohide controlls-over float-right "
@@ -1341,20 +1357,44 @@
 													<div> <img class="img-fluid" src="state_machine.png" alt=""> </div>
 												</div>
 
-												<p>THIS SECTION IS UNDER CONSTRUCTION NOW -- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt
-													accusamus necessitatibus modi adipisci officia libero</p>
+												<p> Below are some of the High and Low Priority services to the machine resources. The code of this module may be browsed at the repository
+													<a href="https://github.com/msantrax/lgt8/tree/master" target="_blank">Controller Code Base</a>
+												</p>
+
 												<ul>
-													<li>Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero
-														accusantium esse hic, obcaecati, ullam, laboriosam!</li>
+													<li><b>Servo Services: </b>This module contains the control state machine for the servo motor that drives the polishing plate. It is
+														composed of a PWM modulator that uses dedicated timers from the ARM M4 core of the CPU and a PID controller for acceleration and
+														damping control. Receives the commands and configuration from the application's strategy modules. Codes in
+														<a href="https://github.com/msantrax/lgt8/tree/master/Servo" target="_blank">Servo State Machine</a> and
+														<a href="https://github.com/msantrax/lgt8/blob/master/board/board.c" target="_blank">board.c #199</a> and
+													</li>
+													<li><b>Sweep Services: </b>This module contains the state machine for controlling the Step Motor for driving the oscillating
+														arm of the sample holder. It comprises a simple core for capturing end-of-stroke sensors for calibrating the mapping of the angular
+														position of the arm. Receives commands and configuration (sweep speed, damping) from the application's strategy modules. Codes in
+														<a href="https://github.com/msantrax/lgt8/tree/master/Sweep" target="_blank">Sweep State Machine</a>
+													</li>
+													<li><b>LVDT Monitor Services: </b>This module contains the services of the interrupt processing routine for the LVDT sensor signal of
+														the monitoring probe. This probe is used for the polishing plate concavity control routines. It provides a 16-bit A/D conversion and
+														applies FIR integration / filtering in order to minimize the noise induced by the servo drive. It then transfers signal to the strategy
+														routines in the application via ACPMessage protocol using UDP drivers. Codes in
+														<a href="https://github.com/msantrax/lgt8/tree/master/Monitor" target="_blank">Monitor Services</a> and
+														<a href="https://github.com/msantrax/lgt8/blob/master/source/main.cpp" target="_blank">LGT8 Main.cpp #167</a>
+													</li>
+													<li><b>Low Priority Services: </b>This module contains the general services for triggering and monitoring various instrument sensors
+														(Vacuum, Abrasive Drum, WG20 Sample Spinner) as well as the M4 core port configuration (GPIO & Clock setup). codes in
+														<a href="https://github.com/msantrax/lgt8/tree/master/Monitor" target="_blank">Monitor Services</a> and
+														<a href="https://github.com/msantrax/lgt8/blob/master/board/board.c" target="_blank">board.cpp</a>
+													</li>
+
 												</ul>
-												<p> The code of this module may be browsed at the repository <a href="https://github.com/msantrax/lgt8/tree/master/Sweep" target="_blank">Sweep Controller Code Base</a></p>
+
 											</div>
 										</div>
 									</div>
 
-									<!-- Accordion LVDT MONITOR SERVICES -->
+									<!-- Accordion COMMUNICATION -->
 									<div class="toggle" >
-										<label>LVDT MONITOR AND AUXILIARY SERVICES</label>
+										<label>COMMUNICATION</label>
 										<div class="toggle-content" style="width : 100%">
 											<div class="col">
 												<div class="owl-carousel buttons-autohide controlls-over float-right "
@@ -1364,63 +1404,30 @@
 													<div> <img class="img-fluid" src="LVDT_Calib.png" alt=""> </div>
 												</div>
 
-												<p>THIS SECTION IS UNDER CONSTRUCTION NOW -- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt
-													accusamus necessitatibus modi adipisci officia libero</p>
+												<p> The code of this module may be browsed at the repository
+													<a href="https://github.com/msantrax/lgt8/tree/master/lwip" target="_blank">Modified TCP/IP Stack</a>
+												</p>
+
 												<ul>
-													<li>Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero
-														accusantium esse hic, obcaecati, ullam, laboriosam!</li>
+													<li><b>TCP/IP UPD Link: </b>These are the services used to communicate with the user interface application. It uses a legacy TCP/IP stack
+														(LWIP) and modified to provide real-time traffic via the use of UDP packets with a fixed (and fast) messaging protocol and recovery
+														routines coordinated with the Android's device driver on the application side. Some codes in
+														<a href="https://github.com/msantrax/lgt8/blob/master/lwip/src/core/udp.c" target="_blank">udp.c</a> and
+														<a href="https://github.com/msantrax/lgt8/blob/master/source/main.cpp" target="_blank">LGT8 Main.cpp #387</a>
+													</li>
+													<li><b>HTTP Server: </b>In order to provide greater flexibility in operation (possibility of operating the instrument via a web browser)
+														and the use of networks where there are restrictions (firewalls) on the use of non-standard ports in the TCP-IP protocol, a simple
+														HTTP page server was implemented . Codes can be seen at
+														<a href="https://github.com/msantrax/lgt8/blob/master/lwip/httpd.c" target="_blank">httpd.c</a> and
+														<a href="https://github.com/msantrax/lgt8/blob/master/lwip/httpd_structs.h" target="_blank">httpd_structs.c</a>
+														The FPGA assisted packetbuffer code version (proof of concept version) may be browsed at the
+														<a href="https://github.com/msantrax/lgt8/tree/master/drivers/fpga_packet_buffer" target="_blank">fpga_packet_buffer</a>
+													</li>
+
 												</ul>
-												<p> The code of this module may be browsed at the repository <a href="https://github.com/msantrax/lgt8/tree/master/Monitor" target="_blank">LVDT Moniotr Code Base</a></p>
 											</div>
 										</div>
 									</div>
-
-									<!-- Accordion CUSTOM HTTP -->
-									<div class="toggle" >
-										<label>CUSTOM HTTP PACKETS SERVICES</label>
-										<div class="toggle-content" style="width : 100%">
-											<div class="col">
-												<div class="owl-carousel buttons-autohide controlls-over float-right "
-													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
-													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
-													<div> <img class="img-fluid" src="custom_http.png" alt=""> </div>
-													<div> <img class="img-fluid" src="wifi_config.png" alt=""> </div>
-												</div>
-
-												<p>THIS SECTION IS UNDER CONSTRUCTION NOW -- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt
-													accusamus necessitatibus modi adipisci officia libero</p>
-												<ul>
-													<li>Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero
-														accusantium esse hic, obcaecati, ullam, laboriosam!</li>
-												</ul>
-												<p> The code of this module may be browsed at the repository <a href="https://github.com/msantrax/lgt8/tree/master/lwip" target="_blank">Custom HTTP Server Code Base</a></p>
-											</div>
-										</div>
-									</div>
-
-									<!-- Accordion STARTUP -->
-									<div class="toggle" >
-										<label>STARTUP & EVENT MANAGER CORE SERVICES</label>
-										<div class="toggle-content" style="width : 100%">
-											<div class="col">
-												<div class="owl-carousel buttons-autohide controlls-over float-right "
-													 style="width: 470px;height: 370px; margin-top: 2px; margin-left: 20px; margin-right: 20px;"
-													 data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": true, "pagination": false, "transitionStyle":"fadeUp"}'>
-													<div> <img class="img-fluid" src="adc_code.png" alt=""> </div>
-													<div> <img class="img-fluid" src="wifi_config.png" alt=""> </div>
-												</div>
-
-												<p>THIS SECTION IS UNDER CONSTRUCTION NOW -- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt
-													accusamus necessitatibus modi adipisci officia libero</p>
-												<ul>
-													<li>Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero
-														accusantium esse hic, obcaecati, ullam, laboriosam!</li>
-												</ul>
-												<p> The code of this module may be browsed at the repository <a href="https://github.com/msantrax/lgt8/tree/master/source" target="_blank">Startup & Event Manager Code Base</a></p>
-											</div>
-										</div>
-									</div>
-
 
 
 								</div>
