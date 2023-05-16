@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - LGT8 Project construction - Phase 5C - Firmware accordions done">
-      <change afterPath="$PROJECT_DIR$/assets/images/asvp_card.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/blaine_card.png" afterDir="false" />
+    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - Phase 5D - Land Page cards updated">
+      <change afterPath="$PROJECT_DIR$/pp200/back.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pp200/back.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pp200/back.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pp200/back1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pp200/pp200.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pp200/run1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pp200/run1.webm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msantos_0123.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/msantos_0123.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msantos_cvbr_0223a.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/msantos_cvbr_0223a.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgt8/lgt8.html" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/lgt8.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +110,7 @@
       <workItem from="1683729485110" duration="20056000" />
       <workItem from="1683828419608" duration="4456000" />
       <workItem from="1683918371988" duration="10523000" />
-      <workItem from="1684248511246" duration="2553000" />
+      <workItem from="1684248511246" duration="14746000" />
     </task>
     <task id="LOCAL-00001" summary="First run.">
       <created>1664562428892</created>
@@ -409,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683931420095</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="MSantos Site - Phase 5D - Land Page cards updated">
+      <created>1684251717183</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1684251717185</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +440,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="MSantos Site - links to the project pages updated on the land page - uploading version to github" />
     <MESSAGE value="MSantos Site - Projects Root pages Phase 1 completed" />
     <MESSAGE value="MSantos Site - Projects Root pages Phase 2 completed" />
     <MESSAGE value="MSantos Site - Navbar menus phase 2" />
@@ -454,6 +464,7 @@
     <MESSAGE value="MSantos Site - LGT8 Project construction - Phase 5B - App accordion finished" />
     <MESSAGE value="MSantos Site - LGT8 Project construction - Phase 5B - Entry to Scan Research Server added." />
     <MESSAGE value="MSantos Site - LGT8 Project construction - Phase 5C - Firmware accordions done" />
-    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - LGT8 Project construction - Phase 5C - Firmware accordions done" />
+    <MESSAGE value="MSantos Site - Phase 5D - Land Page cards updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - Phase 5D - Land Page cards updated" />
   </component>
 </project>
