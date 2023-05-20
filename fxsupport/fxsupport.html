@@ -12,6 +12,7 @@
 
 		<!-- WEB FONTS : use %7C instead of | (pipe) -->
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
 		<!-- CORE CSS -->
 		<link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -30,27 +31,7 @@
 
 	</head>
 
-	<!--
-		AVAILABLE BODY CLASSES:
-		
-		smoothscroll 			= create a browser smooth scroll
-		enable-animation		= enable WOW animations
 
-		bg-grey					= grey background
-		grain-grey				= grey grain background
-		grain-blue				= blue grain background
-		grain-green				= green grain background
-		grain-blue				= blue grain background
-		grain-orange			= orange grain background
-		grain-yellow			= yellow grain background
-		
-		boxed 					= boxed layout
-		pattern1 ... patern11	= pattern background
-		menu-vertical-hide		= hidden, open on click
-		
-		BACKGROUND IMAGE [together with .boxed class]
-		data-background="assets/images/_smarty/boxed_background/1.jpg"
-	-->
 	<body class="smoothscroll enable-animation">
 
 		<!-- SLIDE TOP -->
@@ -288,7 +269,7 @@
 										<li><span><i class="fa fa-user"></i>Author:</span> Opus - MSantos</li>
 										<li><span><i class="fa fa-calendar"></i>Released:</span> 17th June 2017</li>
 										<li><span><i class="fa fa-lightbulb-o"></i>Technologies:</span> JAVAFX / C++ / XLIB</li>
-										<li><span><i class="fa fa-link"></i>Website:</span> <a href="https://github.com/msantrax/FXSupport"> FXSUPPORT REPO</a></li>
+										<li><span><i class="fa fa-link"></i>Website:</span> <a href="https://github.com/msantrax/FXSupport" target="_blank"> FXSUPPORT REPO </a></li>
 									</ul>
 								</div>
 								
@@ -340,17 +321,46 @@
 							</div>
 							<!-- /Subtitle -->
 
-							<p>This section tells you about the structure used by the activity to communicate with the analyst. Although the devices used in this
-								task can be configured by the operations architect (via the form builder), the structure obeys some basic principles that can be
-								seen in the figure below:</p>
+							<p>This section tells you about the structure used by the activity to communicate with the analyst. Although the widgets used in this
+								task can be fully configured by the application architect (via the form builder), the structure <smallc>shall</smallc> obey some basic principles that can be
+								analysed by first observing the figure below:</p>
 						</div>
 
-						<center>
-								<figure>
-									<img class="center" src="system2_c.png" alt="">
-									<figcaption>System Architecture</figcaption>
-								</figure>
-						</center>
+
+						<div style="display: block; margin: auto ">
+							<figure>
+								<img class="center" src="plate1.jpg" alt="">
+								<figcaption>Functional regions on the activity</figcaption>
+							</figure>
+						</div>
+
+						<p>
+							Although the presence, size and placement of the regions numbered above is entirely up to the application architect, the following guidelines
+							are <smallc>recommended</smallc>:
+						</p>
+
+						<div class="row">
+						<div class="col-md-12">
+							 <ul class="list-group">
+								 <li class="list-group-item level1"><b>Section ❶ - Actions: </b>This region <smallc>must</smallc> house the activity's direct command actions, both in terms of
+									 the workflow and in what provides mechanisms for interfacing with other functionalities provided by the operating system. They <smallc>must</smallc> therefore
+									 be of atomic action (they do not need clarification), be of immediate result and are enabled by the context system of the control state machine. The activity
+									 above can be a good example where is possible to find actions like:
+								 </li>
+								 	<li class="list-group-item level2"><i class="bi bi-arrow-repeat"></i><b> Reload Action: </b></li>
+								 	<li class="list-group-item level2"><i class="bi bi-database-fill"></i><b> Store (Database) Action: </b></li>
+									<li class="list-group-item level2"><i class="bi bi-file-pdf"></i><b> Report Action: </b></li>
+								 	<li class="list-group-item level2"><i class="bi bi-share-fill"></i><b> Export (share) Action: </b></li>
+								 	<li class="list-group-item level2"><i class="bi bi-archive-fill"></i><b> Archive Action: </b></li>
+
+
+								 <li class="list-group-item level1"><b>Section ❷ - Input/Results Form: </b></li>
+								 <li class="list-group-item level1"><b>Section ❸ - Status Painel: </b></li>
+								 <li class="list-group-item level1"><b>Section ❹ - Identification Band: </b></li>
+							 </ul>
+						</div>
+						</div>
+
 
 					</div>
 

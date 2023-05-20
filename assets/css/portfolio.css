@@ -3,7 +3,8 @@
 figure {
     display: inline-block;
     /*border: 1px dotted gray;*/
-    margin: 5px; /* adjust as needed */
+    margin-bottom: 20px; /* adjust as needed */
+
 }
 figure img {
     vertical-align: top;
@@ -26,4 +27,35 @@ proj_section_carrousel{
     margin-bottom: 11px;
     color:darkgreen;
     font-weight: 300;
+}
+
+.list-group-item.level1 {
+    list-style-type: disc !important;
+    padding-bottom : 5px;
+    padding-top: 5px;
+    border: 0px;
+    margin-left: 50px
+}
+
+.list-group-item.level2 {
+    list-style-type: disc !important;
+    padding-bottom : 5px;
+    padding-top: 5px;
+    border: 0px;
+    margin-left: 100px
+}
+
+.list-group-item.level1::before {
+    content: "●";
+    margin-right: 0.75rem;
+}
+
+.list-group-item.level2::before {
+    content: "❍";
+    margin-right: 0.75rem;
+}
+
+p>smallc {
+  font-variant: small-caps;
+    font-size: 18px;
 }

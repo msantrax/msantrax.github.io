@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - Phase 6A - Virna8 platform implementation">
-      <change afterPath="$PROJECT_DIR$/assets/images/virna8_banner_card.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pp200/blaine1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pp200/land1.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pp200/land1.webm" afterDir="false" />
+    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - Phase 6A - Virna8 splash video test">
+      <change afterPath="$PROJECT_DIR$/fxsupport/blaine1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fxsupport/fxsupport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fxsupport/land1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fxsupport/land1.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fxsupport/plate1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/essentials.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/essentials.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/portfolio.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pp200/back.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pp200/back.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pp200/back.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pp200/back1.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pp200/pp200.html" beforeDir="false" afterPath="$PROJECT_DIR$/pp200/pp200.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pp200/run1.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pp200/run1.webm" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +112,9 @@
       <workItem from="1683828419608" duration="4456000" />
       <workItem from="1683918371988" duration="10523000" />
       <workItem from="1684248511246" duration="15408000" />
-      <workItem from="1684350442113" duration="2786000" />
+      <workItem from="1684350442113" duration="3632000" />
+      <workItem from="1684421448347" duration="3747000" />
+      <workItem from="1684607943127" duration="15256000" />
     </task>
     <task id="LOCAL-00001" summary="First run.">
       <created>1664562428892</created>
@@ -431,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684272344325</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="MSantos Site - Phase 6A - Virna8 splash video test">
+      <created>1684359650111</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1684359650112</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,7 +458,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="MSantos Site - Projects Root pages Phase 2 completed" />
     <MESSAGE value="MSantos Site - Navbar menus phase 2" />
     <MESSAGE value="MSantos Site - Header SEO metas included phase 1" />
     <MESSAGE value="MSantos Site - LGT8 Project construction - Navigation default to LGT8 was set." />
@@ -476,6 +482,7 @@
     <MESSAGE value="MSantos Site - LGT8 Project construction - Phase 5C - Firmware accordions done" />
     <MESSAGE value="MSantos Site - Phase 5D - Land Page cards updated" />
     <MESSAGE value="MSantos Site - Phase 6A - Virna8 platform implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - Phase 6A - Virna8 platform implementation" />
+    <MESSAGE value="MSantos Site - Phase 6A - Virna8 splash video test" />
+    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - Phase 6A - Virna8 splash video test" />
   </component>
 </project>
