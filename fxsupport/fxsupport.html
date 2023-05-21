@@ -264,12 +264,12 @@
 						<div class="col-md-4 col-sm-4">
 							<div class="card card-default">
 								<div class="card-block">
-									<p class="font-lato fs-18">Integer posuere erat a ante venenatis dapibus posuere velit aliquet nulla sed consectetur.</p>
+									<p class="font-lato fs-18">This repository holds the base modules and accessories for the service platform for analytical instruments in use by Opus and Antrax.</p>
 									<ul class="portfolio-detail-list list-unstyled m-0">
 										<li><span><i class="fa fa-user"></i>Author:</span> Opus - MSantos</li>
 										<li><span><i class="fa fa-calendar"></i>Released:</span> 17th June 2017</li>
 										<li><span><i class="fa fa-lightbulb-o"></i>Technologies:</span> JAVAFX / C++ / XLIB</li>
-										<li><span><i class="fa fa-link"></i>Website:</span> <a href="https://github.com/msantrax/FXSupport" target="_blank"> FXSUPPORT REPO </a></li>
+										<li><span><i class="fa fa-link"></i>URL:</span> <a href="https://github.com/msantrax/FXSupport" target="_blank"> FXSUPPORT REPO </a></li>
 									</ul>
 								</div>
 								
@@ -329,7 +329,7 @@
 
 						<div style="display: block; margin: auto ">
 							<figure>
-								<img class="center" src="plate1.jpg" alt="">
+								<img class="center" src="plate1.png" alt="">
 								<figcaption>Functional regions on the activity</figcaption>
 							</figure>
 						</div>
@@ -342,21 +342,53 @@
 						<div class="row">
 						<div class="col-md-12">
 							 <ul class="list-group">
-								 <li class="list-group-item level1"><b>Section ❶ - Actions: </b>This region <smallc>must</smallc> house the activity's direct command actions, both in terms of
-									 the workflow and in what provides mechanisms for interfacing with other functionalities provided by the operating system. They <smallc>must</smallc> therefore
-									 be of atomic action (they do not need clarification), be of immediate result and are enabled by the context system of the control state machine. The activity
-									 above can be a good example where is possible to find actions like:
+								 <li class="list-group-item level1"><b>Section ❶ - Identification Band: </b>This region informs the analyst quickly and clearly about the identity of the current
+									 activity. It must be in the expected place and highlighted (at the top). It uses three methods to convey the message: ➀ Background colors (e.g. blue for
+									 routine analyses, green for calibrations) - ➁ Type of activity (e.g. permeability operations, fineness operations) label at the left- ➂ Type specialization or profile
+									 (e.g. fineness:cement CP40, analysis of fineness:clinker) at the right. As below :
 								 </li>
-								 	<li class="list-group-item level2"><i class="bi bi-arrow-repeat"></i><b> Reload Action: </b></li>
-								 	<li class="list-group-item level2"><i class="bi bi-database-fill"></i><b> Store (Database) Action: </b></li>
-									<li class="list-group-item level2"><i class="bi bi-file-pdf"></i><b> Report Action: </b></li>
-								 	<li class="list-group-item level2"><i class="bi bi-share-fill"></i><b> Export (share) Action: </b></li>
-								 	<li class="list-group-item level2"><i class="bi bi-archive-fill"></i><b> Archive Action: </b></li>
+								 <div style="display: block; margin: auto ">
+										<figure>
+											<img class="center" src="headers.png" alt="">
+											<figcaption>Examples of Identification Bands</figcaption>
+										</figure>
+								 </div>
+								 <li class="list-group-item level1"><b>Section ❷ - Actions: </b>This region must house the activity's direct command actions, both in terms of
+									 the workflow and in what provides mechanisms for interfacing with other functionalities provided by the operating system. They <smallc>must</smallc> therefore
+									 be of atomic action (do not need clarification), be of immediate result and enabled by the context system of the control state machine. Taking the activity
+									 above as example, is possible to find actions like:
+								 </li>
+								 	<li class="list-group-item level2"><i class="bi bi-arrow-repeat"></i><b> Reload Action: </b>Almost ubiquitous in activities, this action resets the activity to a
+										known configuration at each cycle of analyzes or operations. Performs reloading of the default parameters defined by the profile structure.
+									</li>
+								 	<li class="list-group-item level2"><i class="bi bi-database-fill"></i><b> Store (Database) Action: </b>Said - Send the result to storage in the database.</li>
+									<li class="list-group-item level2"><i class="bi bi-file-pdf"></i><b> Report Action: </b>Constructs a PDF document based on the structure defined by a report profile
+										and the result of analysis or operations.
+									</li>
+								 	<li class="list-group-item level2"><i class="bi bi-share-fill"></i><b> Export (share) Action: </b>Constructs a data structure containing analysis results or operations
+										and sends it to a sharing destination based on the export profile definition.
+									</li>
+								 	<li class="list-group-item level2"><i class="bi bi-archive-fill"></i><b> Archive Action: </b>Said - Archive results or operations to a file.</li>
 
 
-								 <li class="list-group-item level1"><b>Section ❷ - Input/Results Form: </b></li>
-								 <li class="list-group-item level1"><b>Section ❸ - Status Painel: </b></li>
-								 <li class="list-group-item level1"><b>Section ❹ - Identification Band: </b></li>
+								 <li class="list-group-item level1"><b>Section ❸ - Input/Results Form: </b>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere
+									 velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.
+									 Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere
+									 velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.
+									 Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere
+									 velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.
+								 </li>
+
+								 <div style="display: block; margin: auto ">
+									<figure>
+										<img class="center" src="form1.png" alt="">
+										<figcaption>Input & Results Form Structure</figcaption>
+									</figure>
+								</div>
+
+
+								 <li class="list-group-item level1"><b>Section ❹ - Status Painel: </b></li>
+
 							 </ul>
 						</div>
 						</div>

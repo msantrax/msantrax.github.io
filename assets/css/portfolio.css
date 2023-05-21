@@ -30,7 +30,7 @@ proj_section_carrousel{
 }
 
 .list-group-item.level1 {
-    list-style-type: disc !important;
+    /*list-style-type: disc !important;*/
     padding-bottom : 5px;
     padding-top: 5px;
     border: 0px;
@@ -38,7 +38,7 @@ proj_section_carrousel{
 }
 
 .list-group-item.level2 {
-    list-style-type: disc !important;
+    /*list-style-type: disc !important;*/
     padding-bottom : 5px;
     padding-top: 5px;
     border: 0px;
@@ -56,6 +56,11 @@ proj_section_carrousel{
 }
 
 p>smallc {
-  font-variant: small-caps;
+    font-variant: small-caps;
+    font-size: 18px;
+}
+
+list-group-item.level1>smallc {
+    font-variant: small-caps;
     font-size: 18px;
 }
