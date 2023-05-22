@@ -4,7 +4,7 @@ figure {
     display: inline-block;
     /*border: 1px dotted gray;*/
     margin-bottom: 20px; /* adjust as needed */
-
+    margin-top: 20px;
 }
 figure img {
     vertical-align: top;
@@ -23,6 +23,7 @@ proj_section_carrousel{
     /*border: 1px dotted blue;"*/
 }
 
+
 .projsec_label{
     margin-bottom: 11px;
     color:darkgreen;
@@ -34,7 +35,8 @@ proj_section_carrousel{
     padding-bottom : 5px;
     padding-top: 5px;
     border: 0px;
-    margin-left: 50px
+    margin-left: 0px;
+
 }
 
 .list-group-item.level2 {
@@ -42,8 +44,11 @@ proj_section_carrousel{
     padding-bottom : 5px;
     padding-top: 5px;
     border: 0px;
-    margin-left: 100px
+    margin-left: 10px
 }
+
+
+
 
 .list-group-item.level1::before {
     content: "●";
@@ -54,6 +59,56 @@ proj_section_carrousel{
     content: "❍";
     margin-right: 0.75rem;
 }
+
+/*Paragraph sections   ========================================================*/
+
+
+p.item_l1{
+    text-align: justify;
+    /*margin-left: 10px;*/
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.item_l1::before {
+    content: "●";
+    margin-right: 0.75rem;
+}
+
+p>graytag{
+    background-color: lightgray;
+    border-radius: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+p.item_l2{
+    text-align: justify;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.item_l2::before {
+    content: "❍";
+    font-size: 10px;
+    margin-right: 0.75rem;
+}
+
+
+
+p>itemref {
+    font-variant: small-caps;
+    /*font-size: 18px;*/
+    font-weight: 600;
+}
+
+.hcentered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+
 
 p>smallc {
     font-variant: small-caps;

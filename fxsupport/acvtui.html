@@ -69,6 +69,7 @@
 		<!-- wrapper -->
 		<div id="wrapper">
 
+
 			<!-- TOP NAV -->
 			<div id="header" class="navbar-toggleable-md sticky clearfix">
 
@@ -225,97 +226,196 @@
 			</div>
 			<!-- /Top Nav -->
 
-
-			<!-- VIDEO -->
-			<section class="section-video p-10 h-500">
-				<video poster="blaine1.png" width=890 preload="auto" loop autoplay muted style="display: block; margin-left: auto; margin-right: auto;">
-				  <source src="land1.webm" type="video/webm" />
-				  <source src="land1.mp4" type="video/mp4" />
-				  <p>
-					Your browser doesn't support HTML video. Here is a
-					<a href="myVideo.mp4">link to the video</a> instead.
-				  </p>
-				</video>
-
-			</section>
-			<!-- VIDEO -->
-
-			<!-- First Section-->
-			<section style="padding:40px">
-
-				<!-- Land Band-->
+			<!-- PAGE HEADER -->
+			<section class="page-header" style="padding: 10px">
 				<div class="container ">
+					<h1 style="float:left; padding-top: 40px; font-family: Roboto Flex; font-weight: 700">
+						OPUS ANALYTICAL PLATFORM
+					</h1>
+					<img align="right" src="thumb1.png" alt="">
+				</div>
+			</section>
+			<!-- /PAGE HEADER -->
+
+			<!-- -->
+			<section style="padding-top: 40px" >
+				<div class="container">
+					
 					<div class="row">
-						<div class="col-md-8 col-sm-8">
+					
+						<!-- RIGHT Panel-->
+						<div class="col-lg-9 col-md-9 order-sm-2 order-md-2 order-lg-2">
+
+							<div class="col-md-12 col-sm-12">
 							<!-- Subtitle -->
 							<div class="heading-title heading-border">
-								<h2 class="fs-25">Opus Analytical Platform  -  <span>Architectural Details</span></h2>
+								<h2 class="fs-25">Activity UI Structure  -  <span>Operational Regions</span></h2>
 								<ul class="list-inline categories m-0">
-									<li><a href="#">User Interface</a></li>
-									<li><a href="#">Analyst performance help</a></li>
+									<li><a href="#">User Interface Organization</a></li>
 								</ul>
 							</div>
 							<!-- /Subtitle -->
 
-							<p class="lead">This is the presentation page of the Virna8 operations platform that equips the analytical instruments and systems developed by
-								Opus Equipamentos Ltda. It is an evolution of the Antares5 system (based on Netbeans - see on AutoDensity for example) that
-								has been used in the last 10 years. To browse the documentation pages use the link:
-							</p>
-							<i class="fa fa-link"></i>URL:</span> <a href="acvtui.html" target="_blank"> VIRNA8 DOCUMENTATION</a>
-
-						</div>
-
-						<div class="col-md-4 col-sm-4">
-							<div class="card card-default">
-								<div class="card-block">
-									<p class="font-lato fs-18">This repository holds the base modules and accessories for the service platform for analytical instruments in use by Opus and Antrax.</p>
-									<ul class="portfolio-detail-list list-unstyled m-0">
-										<li><span><i class="fa fa-user"></i>Author:</span> Opus - MSantos</li>
-										<li><span><i class="fa fa-calendar"></i>Released:</span> 17th June 2017</li>
-										<li><span><i class="fa fa-lightbulb-o"></i>Technologies:</span> JAVAFX / C++ / XLIB</li>
-										<li><span><i class="fa fa-link"></i>URL:</span> <a href="https://github.com/msantrax/FXSupport" target="_blank"> FXSUPPORT REPO </a></li>
-									</ul>
-								</div>
-								
-								<div class="card-footer">
-									<!-- Social Icons
-									<a href="#" class="social-icon social-icon-sm social-icon-transparent social-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
-										<i class="icon-facebook"></i>
-										<i class="icon-facebook"></i>
-									</a>
-
-									<a href="#" class="social-icon social-icon-sm social-icon-transparent social-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
-										<i class="icon-twitter"></i>
-										<i class="icon-twitter"></i>
-									</a>
-
-									<a href="#" class="social-icon social-icon-sm social-icon-transparent social-gplus" data-toggle="tooltip" data-placement="top" title="Google plus">
-										<i class="icon-gplus"></i>
-										<i class="icon-gplus"></i>
-									</a>
-
-									<a href="#" class="social-icon social-icon-sm social-icon-transparent social-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin">
-										<i class="icon-linkedin"></i>
-										<i class="icon-linkedin"></i>
-									</a>
-
-									<a href="#" class="social-icon social-icon-sm social-icon-transparent social-pinterest" data-toggle="tooltip" data-placement="top" title="Pinterest">
-										<i class="icon-pinterest"></i>
-										<i class="icon-pinterest"></i>
-									</a>
-									-->
-								</div>
+							<p class="lead">This section tells you about the structure used by the activity to communicate with the analyst. Below we may observe a tipical
+							activity interface used on the <b>Blaine Measurement Instrument (PP200 Project):</b></p>
 							</div>
+
+							<figure style="display: block; margin: auto; padding-bottom: 20px">
+								<img class="hcentered" src="plate1.png" width="650" alt="">
+								<figcaption>Functional regions on the activity</figcaption>
+							</figure>
+
+							<p>
+								Although the presence, size and placement of the regions numbered above is entirely up to the application architect, the following guidelines
+								are <smallc>recommended</smallc>:
+							</p>
+
+<!--						<img class="float-right" src="thumb1.png" width="250" alt="" />-->
+							<p class="item_l1"><graytag>Section ❶ - Identification Band:</graytag> This region informs the analyst quickly and clearly about the identity of the current
+								activity. It must be in the expected place and highlighted (at the top). It uses three methods to convey the message: <itemref>➀ Background colors (e.g. blue for
+								routine analyses, green for calibrations)</itemref> - <itemref>➁ Type of activity (e.g. permeability operations, fineness operations)</itemref>
+								label at the left and <itemref>➂ Type specialization or profile (e.g. fineness:cement CP40, analysis of fineness:clinker)</itemref>> label at the right. As below:
+							</p>
+
+							<figure style="display: block; margin: auto; padding-bottom: 20px; padding-top: 20px">
+								<img class="hcentered" src="headers.png" alt="">
+								<figcaption>Examples of Identification Bands</figcaption>
+							</figure>
+
+							<p class="item_l1"><graytag>Section ❷ - Actions:</graytag> This region must house the activity's direct command actions, both in terms of
+								the workflow and in what provides mechanisms for interfacing with other functionalities provided by the operating system. They <smallc>must</smallc> therefore
+								be of atomic action (do not need clarification), be of immediate result and enabled by the context system of the control state machine. Taking the activity
+								above as example, is possible to find actions like:
+							</p>
+								<p class="item_l2"> <i class="bi bi-arrow-repeat"></i> <b> Reload Action: </b>Almost ubiquitous in activities, this action resets the activity to a
+									known configuration at each cycle of analyzes or operations. Performs reloading of the default parameters defined by the profile structure.
+								</p>
+								<p class="item_l2"> <i class="bi bi-database-fill"></i> <b>Store (Database) Action: </b>Said - Send the result to storage in the database.</p>
+								<p class="item_l2"> <i class="bi bi-file-pdf"></i> <b> Report Action: </b>Constructs a PDF document based on the structure defined by a report profile
+									and the result of analysis or operations.
+								</p>
+								<p class="item_l2"> <i class="bi bi-share-fill"></i> <b>Export (share) Action: </b>Constructs a data structure containing analysis results or operations
+									and sends it to a sharing destination based on the export profile definition.
+								</p>
+								<p class="item_l2"> <i class="bi bi-archive-fill"></i> <b> Archive Action: </b>Said - Archive results or operations to a file. </p>
+							<br>
+
+							<img class="float-right" style="margin-top: 20px" src="form1.png" width="300" alt="">
+							<p class="item_l1"><graytag>Section ❸ - Input/Results Form:</graytag> Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies
+								vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+							</p>
+								<p class="item_l2"> <i class="bi bi-arrow-repeat"></i> <b> Reload Action: </b>Almost ubiquitous in activities, this action resets the activity to a
+									known configuration at each cycle of analyzes or operations. Performs reloading of the default parameters defined by the profile structure.
+								</p>
+								<p class="item_l2"> <i class="bi bi-database-fill"></i> <b>Store (Database) Action: </b>Said - Send the result to storage in the database.</p>
+								<p class="item_l2"> <i class="bi bi-file-pdf"></i> <b> Report Action: </b>Constructs a PDF document based on the structure defined by a report profile
+									and the result of analysis or operations.
+								</p>
+
+							<br><br><br><br>
+							<p class="item_l1"><graytag>Section ❹ - Status Painel:</graytag> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla,
+								commodo a sodales
+							</p>
+
+
+							<br> </br>
+							<br> </br>
+							<br> </br>
+
+							<blockquote class="float-left">
+								<p>Lorem ipsum dolor sit amet, elit de consectetur adipiscing.</p>
+								<cite>Albert Einstein</cite>
+							</blockquote>
+
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque.</p>
+
+
+							<div class="divider divider-dotted"><!-- divider --></div>
+
 						</div>
+
+
+						<!-- LEFT Panel -->
+						<div class="col-lg-3 col-md-3 order-sm-1 order-md-1 order-lg-1">
+
+							<!-- CATEGORIES -->
+							<div class="side-nav mb-60">
+
+								<div class="side-nav-head">
+									<button class="fa fa-bars"></button>
+									<h4>INFO SECTIONS</h4>
+								</div>
+
+								<ul class="list-group list-group-bordered list-group-noicon uppercase">
+									<li class="list-group-item active">
+										<a class="dropdown-toggle" href="#"><b>GRAPHICAL INTERFACE</b></a>
+										<ul>
+											<li class="active"><a href="#"> Activity UI Structure</a></li>
+											<li><a href="acvtman.html"> Activity Manager UI Regions</a></li>
+											<li><a href="#"> General Guidelines</a></li>
+										</ul>
+									</li>
+									<li class="list-group-item">
+										<a class="dropdown-toggle" href="#"><b>PERFORMANCE HELPERS &amp; TOOLS</b></a>
+										<ul>
+											<li><a href="#"> Validators</a></li>
+											<li><a href="#"> Auto Sugestion</a></li>
+											<li><a href="#"> Verification Enforcement & Focus</a></li>
+											<li><a href="#"> Formula Fields</a></li>
+											<li><a href="#"> Notification System</a></li>
+											<li><a href="#"> Activity Navigation & Edition</a></li>
+										</ul>
+									</li>
+									<li class="list-group-item">
+										<a class="dropdown-toggle" href="#"><b>APPLICATION MACHINERY &amp; STRUCTURES</b></a>
+										<ul>
+											<li><a href="#"> Activity System</a></li>
+											<li><a href="#"> Profile Structures</a></li>
+											<li><a href="#"> User Space Administration</a></li>
+											<li><a href="#"> Kernel &amp; BSP Interface</a></li>
+										</ul>
+									</li>
+									<li class="list-group-item">
+										<a class="dropdown-toggle" href="#"><b>OPERATIONAL SYSTEM</b></a>
+										<ul>
+											<li><a href="#"> Custom &amp; Ruggedized Linux</a></li>
+											<li><a href="#"> Window Managers &amp; XLIB interface</a></li>
+											<li><a href="#"> Activities Class Loading</a></li>
+											<li><a href="#"> Calc Servers &amp; API Interface</a></li>
+											<li><a href="#"> Strategy Servers &amp; Automatic Control</a></li>
+										</ul>
+									</li>
+
+<!--									<li class="list-group-item"><a href="#"><span class="fs-11 text-muted float-right">(189)</span> ACCESSORIES</a></li>-->
+<!--									<li class="list-group-item"><a href="#"><span class="fs-11 text-muted float-right">(61)</span> GLASSES</a></li>-->
+
+								</ul>
+
+							</div>
+							<!-- /CATEGORIES -->
+
+
+							<!-- BANNER ROTATOR -->
+							<div class="owl-carousel buttons-autohide controlls-over mb-60 text-center" data-plugin-options='{"singleItem": true, "autoPlay": 4000, "navigation": true, "pagination": false, "transitionStyle":"goDown"}'>
+								<a href="#">
+									<img class="img-fluid" src="form1.png" width="270" height="350" alt="">
+								</a>
+								<a href="#">
+									<img class="img-fluid" src="blaine1.png" width="270" height="350" alt="">
+								</a>
+							</div>
+							<!-- /BANNER ROTATOR -->
+
+
+						</div>
+					
 					</div>
-					<div class="divider double-line" style="margin-top: 10px" ><!-- divider --></div>
+					
 				</div>
-				<!-- Land Band-->
-
-
 			</section>
-			<!-- /First Section-->
-
+			<!-- / -->
 
 
 			<!-- FOOTER -->
@@ -446,13 +546,17 @@
 		<!-- /wrapper -->
 
 
+		<!-- SCROLL TO TOP -->
+		<a href="#" id="toTop"></a>
+
+
 		<!-- PRELOADER -->
 		<div id="preloader">
 			<div class="inner">
 				<span class="loader"></span>
 			</div>
-		</div>
-		<!-- /PRELOADER -->
+		</div><!-- /PRELOADER -->
+
 
 		<!-- JAVASCRIPT FILES -->
 		<script>var plugin_path = '../assets/plugins/';</script>
@@ -558,80 +662,23 @@
 
 
 
+<!-- CALLOUT
+<div class="callout alert alert-border mt-60 mb-60">
+
+	<div class="row">
+
+		<div class="col-md-9">
+			<h4>Call now at <strong>+800-565-2390</strong> and get 15% discount!</strong></h4>
+			<p class="font-lato fs-17">
+				We truly care about our users and our product.
+			</p>
+		</div>
 
 
+		<div class="col-md-3 text-right">
+			<a href="#purchase" rel="nofollow" target="_blank" class="btn btn-default btn-lg btn-round">PURCHASE NOW</a>
+		</div>
 
-				<!--
-					OPTIONAL : TEXT
-					Use together with dark-5 or so , to make more visible the text
-				-->
-
-<!--				<div class="display-table">-->
-<!--					<div class="display-table-cell vertical-align-middle">-->
-
-<!--						<div class="container text-center">-->
-
-<!--							<h1 class="m-0 fs-50 fw-300 wow fadeInUp" data-wow-delay="0.4s"><span>Smarty</span> Multi-Purpose Template</h1>-->
-<!--							<p class="lead font-lato fs-30 wow fadeInUp" data-wow-delay="0.7s">Over <span class="countTo" data-speed="4000">500</span> html files! <span class="theme-color fw-400 font-style-italic">Admin included</span> &amp; RTL</p>-->
-
-<!--						</div>-->
-
-<!--					</div>-->
-<!--				</div>-->
-<!--				-->
-
-
-<!--				<div class="overlay dark-0">&lt;!&ndash; dark overlay [1 to 9 opacity] &ndash;&gt;</div>-->
-
-<!--				<div class="section-container-video" >-->
-<!--					<video poster="back1.jpg"  width=1366 preload="auto" loop autoplay muted >-->
-<!--						<source src="run1.webm" type="video/webm" />-->
-<!--						<source src="run1.mp4" type="video/mp4" />-->
-<!--					</video>-->
-<!--				</div>-->
-
-
-
-			<!--
-				PAGE HEADER
-
-				CLASSES:
-					.page-header-xs	= 20px margins
-					.page-header-md	= 50px margins
-					.page-header-lg	= 80px margins
-					.page-header-xlg= 130px margins
-					.dark			= dark page header
-
-					.shadow-before-1 	= shadow 1 header top
-					.shadow-after-1 	= shadow 1 header bottom
-					.shadow-before-2 	= shadow 2 header top
-					.shadow-after-2 	= shadow 2 header bottom
-					.shadow-before-3 	= shadow 3 header top
-					.shadow-after-3 	= shadow 3 header bottom
-			-->
-<!--			<section class="page-header page-header-xs">-->
-<!--				<div class="container">-->
-<!--					<h1>Video Name</h1>-->
-<!--					<ul class="page-options list-inline">-->
-<!--						<li><a href="#" class="glyphicon glyphicon-menu-left"></a></li>-->
-<!--						<li><a href="#" class="glyphicon glyphicon-th-large"></a></li>-->
-<!--						<li><a href="#" class="glyphicon glyphicon-menu-right"></a></li>-->
-<!--					</ul>-->
-<!--				</div>-->
-<!--			</section>-->
-			<!-- /PAGE HEADER -->
-
-
-<!-- YOUTUBE VIDEO
-					<div class="col-md-8">
-					<div class="embed-responsive embed-responsive-16by9">
-						<iframe width="280" height="158" src="https://www.youtube.com/embed/1xJLjoGT9JI"
-								title="YouTube video player" frameborder="0"
-								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-								>
-						</iframe>
-					</div>
-					</div>
+	</div>
+</div>
 -->
-
-

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - Phase 6A - Virna8 Arch Page phase 1">
-      <change afterPath="$PROJECT_DIR$/fxsupport/form1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fxsupport/headers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fxsupport/plate1.png" afterDir="false" />
+    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - Phase 6A - Virna8 Arch Page phase 3">
+      <change afterPath="$PROJECT_DIR$/fxsupport/activity_600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fxsupport/acvtman.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fxsupport/acvtui.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fxsupport/thumb1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/portfolio.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fxsupport/fxsupport.html" beforeDir="false" afterPath="$PROJECT_DIR$/fxsupport/fxsupport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fxsupport/plate1.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projects/LGT8/Virna7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fxsupport" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -51,6 +51,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fxsupport" />
       <recent name="$PROJECT_DIR$/Pages" />
       <recent name="$PROJECT_DIR$/lgt8" />
       <recent name="$PROJECT_DIR$/prjseed" />
@@ -111,7 +112,8 @@
       <workItem from="1684350442113" duration="3632000" />
       <workItem from="1684421448347" duration="3747000" />
       <workItem from="1684607943127" duration="15512000" />
-      <workItem from="1684671200410" duration="10080000" />
+      <workItem from="1684671200410" duration="15254000" />
+      <workItem from="1684763235555" duration="24876000" />
     </task>
     <task id="LOCAL-00001" summary="First run.">
       <created>1664562428892</created>
@@ -442,7 +444,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684623719193</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="MSantos Site - Phase 6A - Virna8 Arch Page phase 2">
+      <created>1684692036975</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1684692036975</updated>
+    </task>
+    <task id="LOCAL-00049" summary="MSantos Site - Phase 6A - Virna8 Arch Page phase 3">
+      <created>1684692074411</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1684692074411</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,8 +478,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="MSantos Site - Header SEO metas included phase 1" />
-    <MESSAGE value="MSantos Site - LGT8 Project construction - Navigation default to LGT8 was set." />
     <MESSAGE value="MSantos Site - LGT8 Project construction - System &amp; hardware sections init phase" />
     <MESSAGE value="MSantos Site - LGT8 Project construction - Sections scaffold in init phase" />
     <MESSAGE value="MSantos Site - LGT8 Project construction - Sections Firmware, Application, Support aded" />
@@ -487,6 +501,8 @@
     <MESSAGE value="MSantos Site - Phase 6A - Virna8 platform implementation" />
     <MESSAGE value="MSantos Site - Phase 6A - Virna8 splash video test" />
     <MESSAGE value="MSantos Site - Phase 6A - Virna8 Arch Page phase 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - Phase 6A - Virna8 Arch Page phase 1" />
+    <MESSAGE value="MSantos Site - Phase 6A - Virna8 Arch Page phase 2" />
+    <MESSAGE value="MSantos Site - Phase 6A - Virna8 Arch Page phase 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - Phase 6A - Virna8 Arch Page phase 3" />
   </component>
 </project>
