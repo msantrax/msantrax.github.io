@@ -229,7 +229,7 @@
 			<!-- PAGE HEADER -->
 			<section class="page-header" style="padding: 10px">
 				<div class="container ">
-					<h1 style="float:left; padding-top: 40px; font-family: Roboto Flex; font-weight: 700">
+					<h1 style="float:left; padding-top: 40px; font-weight: 700">
 						OPUS ANALYTICAL PLATFORM
 					</h1>
 					<img align="right" src="thumb1.png" alt="">
@@ -265,6 +265,21 @@
 								<figcaption>Functional regions on the activity</figcaption>
 							</figure>
 
+							<div style="margin: 20px">
+								<div class="text-left">
+									<a href="javascript:;" onclick="jQuery('#pre-00').slideToggle();">Show Video</a>
+								</div>
+								<div id="pre-00" class="embed-responsive embed-responsive-16by9" style="display: none">
+									<iframe width="800" height="450" src="https://www.youtube.com/embed/1xJLjoGT9JI"
+											title="PP200 - Run 1" frameborder="0"
+											allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+											allowfullscreen>
+									</iframe>"
+
+								</div>
+							</div>
+
+
 							<p>
 								Although the presence, size and placement of the regions numbered above is entirely up to the application architect, the following guidelines
 								are <smallc>recommended</smallc>:
@@ -282,13 +297,15 @@
 								<figcaption>Examples of Identification Bands</figcaption>
 							</figure>
 
+							<img class="float-right" style="margin-top: 40px" src="actions.png" width="90" alt="">
 							<p class="item_l1"><graytag>Section ❷ - Actions:</graytag> This region must house the activity's direct command actions, both in terms of
 								the workflow and in what provides mechanisms for interfacing with other functionalities provided by the operating system. They <smallc>must</smallc> therefore
-								be of atomic action (do not need clarification), be of immediate result and enabled by the context system of the control state machine. Taking the activity
+								be of atomic action (do not need further clarification), be of immediate result and <smallc>may</smallc> be enabled by the context system of the control state machine. Taking the activity
 								above as example, is possible to find actions like:
 							</p>
 								<p class="item_l2"> <i class="bi bi-arrow-repeat"></i> <b> Reload Action: </b>Almost ubiquitous in activities, this action resets the activity to a
 									known configuration at each cycle of analyzes or operations. Performs reloading of the default parameters defined by the profile structure.
+									The presence is <smallc>recommended</smallc>.
 								</p>
 								<p class="item_l2"> <i class="bi bi-database-fill"></i> <b>Store (Database) Action: </b>Said - Send the result to storage in the database.</p>
 								<p class="item_l2"> <i class="bi bi-file-pdf"></i> <b> Report Action: </b>Constructs a PDF document based on the structure defined by a report profile
@@ -297,10 +314,38 @@
 								<p class="item_l2"> <i class="bi bi-share-fill"></i> <b>Export (share) Action: </b>Constructs a data structure containing analysis results or operations
 									and sends it to a sharing destination based on the export profile definition.
 								</p>
-								<p class="item_l2"> <i class="bi bi-archive-fill"></i> <b> Archive Action: </b>Said - Archive results or operations to a file. </p>
-							<br>
+								<p class="item_l2"> <i class="bi bi-archive-fill"></i> <b> Archive Action: </b>Said - Archive results or operations to a file. (grayed / disabled by the state machine context)</p>
+							<p class="item_l0">
+								The feedback about the identification/meaning of the icon and his current stutus is provided by the ToolTip manager of the state machine when the mouse is hovering over.
+							</p>
 
-							<img class="float-right" style="margin-top: 20px" src="form1.png" width="300" alt="">
+							<div>
+								<div class="text-left">
+									<a href="javascript:;" onclick="jQuery('#pre-0').slideToggle();">Show Code References</a>
+								</div>
+								<div id="pre-0" class="coderefs" style="display: none"> <!--class="text-left rad-0 text-danger hide">-->
+									<p class="coderef">
+										<i class="fa fa-link"></i> Dispatch hooks on controller:
+										<a href="https://github.com/msantrax/PP200/blob/master/src/pp200a/FX1Controller.java#L651" target="_blank">
+											PP200::FXController1::DISPATCH SECTION</a>
+									</p>
+									<p class="coderef">
+										<i class="fa fa-link"></i> State Machine STOREANALISEFILE event called by the hook above :
+										<a href="https://github.com/msantrax/PP200/blob/master/src/pp200a/FX1SMachine.java#L702" target="_blank">
+											PP200::FX1StateMachine::storeAnaliseAction()</a>
+									</p>
+
+								</div>
+							</div>
+
+
+
+
+
+
+
+
+							<img class="float-right" style="margin-top: 40px" src="form1.png" width="300" alt="">
 							<p class="item_l1"><graytag>Section ❸ - Input/Results Form:</graytag> Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies
 								vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
 							</p>
@@ -313,8 +358,10 @@
 								</p>
 
 							<br><br><br><br>
+
+							<img class="float-right" style="margin-top: 20px" src="status.png" width="145" alt="">
 							<p class="item_l1"><graytag>Section ❹ - Status Painel:</graytag> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla,
-								commodo a sodales
+								commodo a sodales - ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque.</p>
 							</p>
 
 
