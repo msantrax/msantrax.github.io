@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - Phase 6A - Virna8 Arch Page phase 4 - Navigation added">
-      <change afterPath="$PROJECT_DIR$/fxsupport/actions.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fxsupport/status.png" afterDir="false" />
+    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - Phase 6A - Virna8 Arch Page phase 4 - Code and Video lauchers added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/portfolio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fxsupport/acvtman.html" beforeDir="false" afterPath="$PROJECT_DIR$/fxsupport/acvtman.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fxsupport/acvtui.html" beforeDir="false" afterPath="$PROJECT_DIR$/fxsupport/acvtui.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blaine_card.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blaine_card.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/lgt8_card.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/lgt8_card.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/virna8_banner_card.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/virna8_banner_card.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,14 +111,7 @@
       <workItem from="1684607943127" duration="15512000" />
       <workItem from="1684671200410" duration="15254000" />
       <workItem from="1684763235555" duration="25789000" />
-      <workItem from="1684849034877" duration="10149000" />
-    </task>
-    <task id="LOCAL-00002" summary="Push test">
-      <created>1664562483699</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1664562483699</updated>
+      <workItem from="1684849034877" duration="10871000" />
     </task>
     <task id="LOCAL-00003" summary="Template adjustments">
       <created>1664566755313</created>
@@ -458,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684793740143</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="MSantos Site - Phase 6A - Virna8 Arch Page phase 4 - Code and Video lauchers added">
+      <created>1684861040712</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1684861040721</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,7 +476,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="MSantos Site - LGT8 Project construction - Sections scaffold in init phase" />
     <MESSAGE value="MSantos Site - LGT8 Project construction - Sections Firmware, Application, Support aded" />
     <MESSAGE value="MSantos Site - LGT8 Project construction - Sections Hardware GPIO, SWEEP, SERVO editied" />
     <MESSAGE value="MSantos Site - LGT8 Project construction - Section Firmware accordions added" />
@@ -503,6 +500,7 @@
     <MESSAGE value="MSantos Site - Phase 6A - Virna8 Arch Page phase 2" />
     <MESSAGE value="MSantos Site - Phase 6A - Virna8 Arch Page phase 3" />
     <MESSAGE value="MSantos Site - Phase 6A - Virna8 Arch Page phase 4 - Navigation added" />
-    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - Phase 6A - Virna8 Arch Page phase 4 - Navigation added" />
+    <MESSAGE value="MSantos Site - Phase 6A - Virna8 Arch Page phase 4 - Code and Video lauchers added" />
+    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - Phase 6A - Virna8 Arch Page phase 4 - Code and Video lauchers added" />
   </component>
 </project>
