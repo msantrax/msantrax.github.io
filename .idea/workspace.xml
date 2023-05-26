@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - Phase 6A - Virna8 Arch Page phase 5 - Cards progression tags added">
-      <change afterPath="$PROJECT_DIR$/fxsupport/land1_a.mp4" afterDir="false" />
+    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - Phase 6A - Virna8 Arch Pages phase 6A - acvtui released.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/portfolio.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fxsupport/acvtui.html" beforeDir="false" afterPath="$PROJECT_DIR$/fxsupport/acvtui.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fxsupport/form1.png" beforeDir="false" afterPath="$PROJECT_DIR$/fxsupport/form1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fxsupport/land1.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fxsupport/land1.webm" beforeDir="false" afterPath="$PROJECT_DIR$/fxsupport/land1.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fxsupport/status.png" beforeDir="false" afterPath="$PROJECT_DIR$/fxsupport/status.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pp200/land1.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pp200/pp200.html" beforeDir="false" afterPath="$PROJECT_DIR$/pp200/pp200.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +17,21 @@
       <list>
         <option value="CSS File" />
         <option value="PlantUML Network" />
+        <option value="UML Sequence" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lgt8/lgt8.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fxsupport/fxsupport.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fxsupport/acvtman.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/assets/css/portfolio.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fxsupport/acvtui.html" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2FV0xvoLezipDvhbnh7hPLBoaYH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -39,6 +44,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
     <property name="PlantUML Class.puclass" value="PlantUML Network" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -119,14 +125,8 @@
       <workItem from="1684849034877" duration="11911000" />
       <workItem from="1684945988879" duration="1750000" />
       <workItem from="1685028059898" duration="2364000" />
-      <workItem from="1685108540754" duration="2498000" />
-    </task>
-    <task id="LOCAL-00004" summary="Template adjustments">
-      <created>1665432528324</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1665432528324</updated>
+      <workItem from="1685108540754" duration="5050000" />
+      <workItem from="1685137880275" duration="503000" />
     </task>
     <task id="LOCAL-00005" summary="Resume upload">
       <created>1665432741201</created>
@@ -464,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684869885129</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="MSantos Site - Phase 6A - Virna8 Arch Pages phase 6A - acvtui released.">
+      <created>1685113964023</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1685113964024</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -484,7 +491,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="MSantos Site - LGT8 Project construction - Sections Hardware GPIO, SWEEP, SERVO editied" />
     <MESSAGE value="MSantos Site - LGT8 Project construction - Section Firmware accordions added" />
     <MESSAGE value="MSantos Site - LGT8 Project construction - Section Application accordions added" />
     <MESSAGE value="MSantos Site - LGT8 Project construction - Skills section update - added pcb views on hardware section" />
@@ -509,6 +515,7 @@
     <MESSAGE value="MSantos Site - Phase 6A - Virna8 Arch Page phase 4 - Navigation added" />
     <MESSAGE value="MSantos Site - Phase 6A - Virna8 Arch Page phase 4 - Code and Video lauchers added" />
     <MESSAGE value="MSantos Site - Phase 6A - Virna8 Arch Page phase 5 - Cards progression tags added" />
-    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - Phase 6A - Virna8 Arch Page phase 5 - Cards progression tags added" />
+    <MESSAGE value="MSantos Site - Phase 6A - Virna8 Arch Pages phase 6A - acvtui released." />
+    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - Phase 6A - Virna8 Arch Pages phase 6A - acvtui released." />
   </component>
 </project>

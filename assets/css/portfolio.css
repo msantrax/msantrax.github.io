@@ -118,7 +118,7 @@ p.item_l1{
 }
 
 p.item_l2{
-    text-align: justify;
+    text-align: justify-all;
     margin-left: 20px;
     margin-bottom: 5px;
 }
