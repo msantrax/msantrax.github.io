@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - Phase 6A - Virna8 Arch Page phase 4 - Code and Video lauchers added">
+    <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - Phase 6A - Virna8 Arch Page phase 5 - Cards progression tags added">
+      <change afterPath="$PROJECT_DIR$/fxsupport/land1_a.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blaine_card.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blaine_card.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/lgt8_card.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/lgt8_card.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/virna8_banner_card.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/virna8_banner_card.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fxsupport/acvtui.html" beforeDir="false" afterPath="$PROJECT_DIR$/fxsupport/acvtui.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fxsupport/form1.png" beforeDir="false" afterPath="$PROJECT_DIR$/fxsupport/form1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fxsupport/land1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fxsupport/land1.webm" beforeDir="false" afterPath="$PROJECT_DIR$/fxsupport/land1.webm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fxsupport/status.png" beforeDir="false" afterPath="$PROJECT_DIR$/fxsupport/status.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pp200/land1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pp200/pp200.html" beforeDir="false" afterPath="$PROJECT_DIR$/pp200/pp200.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,14 +116,10 @@
       <workItem from="1684607943127" duration="15512000" />
       <workItem from="1684671200410" duration="15254000" />
       <workItem from="1684763235555" duration="25789000" />
-      <workItem from="1684849034877" duration="10871000" />
-    </task>
-    <task id="LOCAL-00003" summary="Template adjustments">
-      <created>1664566755313</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1664566755313</updated>
+      <workItem from="1684849034877" duration="11911000" />
+      <workItem from="1684945988879" duration="1750000" />
+      <workItem from="1685028059898" duration="2364000" />
+      <workItem from="1685108540754" duration="2498000" />
     </task>
     <task id="LOCAL-00004" summary="Template adjustments">
       <created>1665432528324</created>
@@ -456,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684861040721</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="MSantos Site - Phase 6A - Virna8 Arch Page phase 5 - Cards progression tags added">
+      <created>1684869885129</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1684869885129</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,7 +484,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="MSantos Site - LGT8 Project construction - Sections Firmware, Application, Support aded" />
     <MESSAGE value="MSantos Site - LGT8 Project construction - Sections Hardware GPIO, SWEEP, SERVO editied" />
     <MESSAGE value="MSantos Site - LGT8 Project construction - Section Firmware accordions added" />
     <MESSAGE value="MSantos Site - LGT8 Project construction - Section Application accordions added" />
@@ -501,6 +508,7 @@
     <MESSAGE value="MSantos Site - Phase 6A - Virna8 Arch Page phase 3" />
     <MESSAGE value="MSantos Site - Phase 6A - Virna8 Arch Page phase 4 - Navigation added" />
     <MESSAGE value="MSantos Site - Phase 6A - Virna8 Arch Page phase 4 - Code and Video lauchers added" />
-    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - Phase 6A - Virna8 Arch Page phase 4 - Code and Video lauchers added" />
+    <MESSAGE value="MSantos Site - Phase 6A - Virna8 Arch Page phase 5 - Cards progression tags added" />
+    <option name="LAST_COMMIT_MESSAGE" value="MSantos Site - Phase 6A - Virna8 Arch Page phase 5 - Cards progression tags added" />
   </component>
 </project>

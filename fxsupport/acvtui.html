@@ -319,6 +319,7 @@
 								The feedback about the identification/meaning of the icon and his current stutus is provided by the ToolTip manager of the state machine when the mouse is hovering over.
 							</p>
 
+							<!--CODE REFERENCES-->
 							<div>
 								<div class="text-left">
 									<a href="javascript:;" onclick="jQuery('#pre-0').slideToggle();">Show Code References</a>
@@ -337,51 +338,92 @@
 
 								</div>
 							</div>
-
-
-
-
-
-
+							<!--/CODE REFERENCES-->
 
 
 							<img class="float-right" style="margin-top: 40px" src="form1.png" width="300" alt="">
-							<p class="item_l1"><graytag>Section ❸ - Input/Results Form:</graytag> Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies
-								vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+							<p class="item_l1"><graytag>Section ❸ - Input/Results Form:</graytag> This region is where the operator establishes the operating parameters of
+								the analytical task and obtains the results that is produced according to the particular methodology of the activity. We can note the
+								following aspects as <smallc>recommended</smallc>:
 							</p>
-								<p class="item_l2"> <i class="bi bi-arrow-repeat"></i> <b> Reload Action: </b>Almost ubiquitous in activities, this action resets the activity to a
-									known configuration at each cycle of analyzes or operations. Performs reloading of the default parameters defined by the profile structure.
+								<p class="item_l2"> It should contain two clearly delimited sub-areas, one for inputs as in 2 and one for outputs as in 3.</p>
+								<p class="item_l2"> Use bold notation to output data (intuitive identification).</p>
+								<p class="item_l2"> Make the input data separated into functional areas such as A, B and C. Such functional areas <smallc>should</smallc> be demarcated by headers
+									in the highlighted color of the set.
 								</p>
-								<p class="item_l2"> <i class="bi bi-database-fill"></i> <b>Store (Database) Action: </b>Said - Send the result to storage in the database.</p>
-								<p class="item_l2"> <i class="bi bi-file-pdf"></i> <b> Report Action: </b>Constructs a PDF document based on the structure defined by a report profile
-									and the result of analysis or operations.
+								<p class="item_l2"> The data editing sequence <smallc>must</smallc> follow what is determined by the activity's
+									<a href="#" target="_blank">focus sequence machine</a>,
+									so the position of the widgets follows this orientation, observing the western reading scan pattern (from left to right, from top to bottom) as in 1.
+								</p>
+								<p class="item_l0">
+									There <smallc>should</smallc> be no visual change (dynamic layout) in addition to the activity administration mechanisms (
+									<a href="#" target="_blank">context menus</a>,
+									<a href="#" target="_blank">configuration dialogs</a>,
+									etc).
 								</p>
 
-							<br><br><br><br>
+							<!--CODE REFERENCES-->
+							<div>
+								<div class="text-left">
+									<a href="javascript:;" onclick="jQuery('#pre-acvtui-form').slideToggle();">Show Code References</a>
+								</div>
+								<div id="pre-acvtui-form" class="coderefs" style="display: none"> <!--class="text-left rad-0 text-danger hide">-->
+									<p class="coderef">
+										<i class="fa fa-link"></i> Dispatch hooks on controller:
+										<a href="https://github.com/msantrax/PP200/blob/master/src/pp200a/FX1Controller.java#L651" target="_blank">
+											PP200::FXController1::DISPATCH SECTION</a>
+									</p>
+									<p class="coderef">
+										<i class="fa fa-link"></i> State Machine STOREANALISEFILE event called by the hook above :
+										<a href="https://github.com/msantrax/PP200/blob/master/src/pp200a/FX1SMachine.java#L702" target="_blank">
+											PP200::FX1StateMachine::storeAnaliseAction()</a>
+									</p>
 
-							<img class="float-right" style="margin-top: 20px" src="status.png" width="145" alt="">
-							<p class="item_l1"><graytag>Section ❹ - Status Painel:</graytag> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla,
-								commodo a sodales - ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque.</p>
+								</div>
+							</div>
+							<!--/CODE REFERENCES-->
+
+
+							<img class="float-right" style="margin-top: 40px" src="status.png" width="145" alt="">
+							<p class="item_l1"><graytag>Section ❹ - Status Painel:</graytag> This region is reserved for the context information of the task in progress in the activity,
+								the real-time feedback of the state of the instrument's sensors, the display of partial data and the immediate command of the essay. So we can find sub
+								regions like:
 							</p>
+								<p class="item_l2"> ❶ Context information such as temporal data about the essay or its class (e.g. preliminary, correction, final essay).</p>
+								<p class="item_l2"> ❷ Gauges for tracking sensor results (e.g. LED indicators, timers, bargraphs).</p>
+								<p class="item_l2"> ❸ Partial results (replicas) of observations in the essay and their respective enabling commands.</p>
+								<p class="item_l2"> ❹ Raw/primary test results (which will be used in the analysis result after applying the calculation parameters).</p>
+								<p class="item_l2"> ❺ Essay activation command (Start/Stop/Pause).</p>
 
+							<p class="item_lo"> This region is where the analyst pays most attention to the analysis routine and it is <smallc>recommended</smallc> that an extra dose of weighting between
+								precision and synthesis be applied in the design of your architecture.</p>
 
-							<br> </br>
-							<br> </br>
-							<br> </br>
+							<!--CODE REFERENCES-->
+							<div>
+								<div class="text-left">
+									<a href="javascript:;" onclick="jQuery('#pre-acvtui-status').slideToggle();">Show Code References</a>
+								</div>
+								<div id="pre-acvtui-status" class="coderefs" style="display: none"> <!--class="text-left rad-0 text-danger hide">-->
+									<p class="coderef">
+										<i class="fa fa-link"></i> Dispatch hooks on controller:
+										<a href="https://github.com/msantrax/PP200/blob/master/src/pp200a/FX1Controller.java#L651" target="_blank">
+											PP200::FXController1::DISPATCH SECTION</a>
+									</p>
+									<p class="coderef">
+										<i class="fa fa-link"></i> State Machine STOREANALISEFILE event called by the hook above :
+										<a href="https://github.com/msantrax/PP200/blob/master/src/pp200a/FX1SMachine.java#L702" target="_blank">
+											PP200::FX1StateMachine::storeAnaliseAction()</a>
+									</p>
 
-							<blockquote class="float-left">
-								<p>Lorem ipsum dolor sit amet, elit de consectetur adipiscing.</p>
-								<cite>Albert Einstein</cite>
-							</blockquote>
-
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque.</p>
+								</div>
+							</div>
+							<!--/CODE REFERENCES-->
 
 
 							<div class="divider divider-dotted"><!-- divider --></div>
 
 						</div>
+
 
 
 						<!-- LEFT Panel -->
