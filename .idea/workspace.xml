@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e7c8701-be65-4bb0-b262-603e79c675c4" name="Default Changelist" comment="MSantos Site - Phase 6A - Virna8 Arch Pages phase 6A - Outstanding Virna8 card">
+      <change afterPath="$PROJECT_DIR$/assets/images/middlestrip_card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/sorptionlab_card.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lgt8/lgt8.html" beforeDir="false" afterPath="$PROJECT_DIR$/lgt8/lgt8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prjseed/prjseed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,14 +127,8 @@
       <workItem from="1685028059898" duration="2364000" />
       <workItem from="1685108540754" duration="5050000" />
       <workItem from="1685137880275" duration="1765000" />
-      <workItem from="1685472987563" duration="763000" />
-    </task>
-    <task id="LOCAL-00006" summary="Resume upload">
-      <created>1665432891978</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1665432891978</updated>
+      <workItem from="1685472987563" duration="816000" />
+      <workItem from="1685891778352" duration="1782000" />
     </task>
     <task id="LOCAL-00007" summary="Resume upload 3">
       <created>1665432948628</created>
@@ -471,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685138476099</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="MSantos Site - Phase 6A - Virna8 Arch Pages phase 6A - Outstanding Virna8 card">
+      <created>1685474275419</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1685474275420</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
